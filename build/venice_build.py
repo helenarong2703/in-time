@@ -96,6 +96,7 @@ for theme, cn in THEMES:
     items=[]
     for k in sel[theme]:
         en, secs, oot, status, call = M[k]; t, sub, team = title_of(k); sc, cond, exhibit = shicha_of(k)
+        facts = adds[k]['body'].split('\n\n',1)[1].strip() if (k in adds and '\n\n' in adds[k]['body']) else ''
         num = k if not k.startswith("ART") else "ART"
         if not (res.get(k,{}).get('img') and os.path.exists(f"{D}/{ASSETS}/{res[k]['img']}")): missing.append((theme,k,t))
         if call: calls.append((theme,k,t,call))
@@ -117,6 +118,7 @@ for theme, cn in THEMES:
       <div class="prof">{radar(weights(k,theme), theme)}<div class="proflab">time-section profile · filed under <b>{theme}</b><br><span class="muted">also bulging: {H.escape(secs_txt)}</span></div></div>
       <div class="txt">
         <p class="oot"><b>Out of time with:</b> {H.escape(oot)}</p>
+        {("<p class='sc'><b>Facts:</b> "+H.escape(facts)+"</p>") if facts else ""}
         {("<p class='sc'><b>时差 · 策展判断：</b>"+H.escape(sc)+"</p>") if sc else ""}
         {("<p class='ex'><b>拟议展品 / proposition：</b>"+H.escape(exhibit)+"</p>") if exhibit else ""}
         {("<p class='gate'><b>Gate:</b> "+H.escape(cond)+"</p>") if cond else ""}
