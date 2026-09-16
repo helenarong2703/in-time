@@ -6,7 +6,8 @@
    "A01",
    "A03",
    "12",
-   "15"
+   "15",
+   "R01"
   ],
   "Ecological": [
    "30",
@@ -14,7 +15,8 @@
    "19",
    "28",
    "A04",
-   "21"
+   "21",
+   "R02"
   ],
   "Cultural": [
    "4",
@@ -50,7 +52,8 @@
    "18",
    "A06",
    "37",
-   "ART_LIAMYOUNG"
+   "ART_LIAMYOUNG",
+   "R03"
   ]
  },
  "results": {
@@ -299,6 +302,24 @@
    "img": "A07.jpg",
    "img_src": "https://aagff.mplus.org.hk/og_image_3.jpg",
    "note": "ok"
+  },
+  "R01": {
+   "url": "https://dcem.tongji.edu.cn/info/1044/1178.htm",
+   "img": "R01.jpg",
+   "img_src": null,
+   "note": "pending — only third-party self-healing images exist on Commons (Basilisk etc.); request specimen photos from Xu's team via the invitation"
+  },
+  "R02": {
+   "url": "https://www.mcf.org.cn/topics/list-45.html",
+   "img": "R02.jpg",
+   "img_src": "https://www.mcf.org.cn/upload/service/202412/18/202412181428039024.jpg",
+   "note": "ok · MCF park page aerial (16 Sep)"
+  },
+  "R03": {
+   "url": "https://city.cri.cn/20260120/4666c158-09eb-4beb-bef3-f0877e290d68.html",
+   "img": "R03.jpg",
+   "img_src": "https://v2.cri.cn/c89e53c6-0bc7-45ca-ac11-a385002d7d11/9704f78d-4cc6-4d62-b647-e8a4015ef43c/image/19d40684-f8fc-4dea-853c-1ad6def2fad8.900x506.750x421.png",
+   "note": "ok · CRI 2026-01 robot-dog scan photo (16 Sep); R03b = Commons aerial CC BY-SA 4.0 Charlie fong"
   }
  }
 }

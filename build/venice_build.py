@@ -51,6 +51,9 @@ M = {
 "A06":("Wendi Yan, <i>Biotopy</i> — live bio-digital instrument",["Ecological","Maintenance"],"Microbial growth and game real-time mutually dependent; a six-month live instrument.","priority add","Import, lab safety, daily care and failure protocol are the gates."),
 "37":("Hainan Lingshui undersea data centre",["Ecological","Material","Maintenance"],"Chip upgrade, hull inspection, marine change and subsea engineering life all differ.","reserve","Top-up: the marine-maintenance clock."),
 "ART_LIAMYOUNG":("Liam Young — new machine-vision commission, or <i>Planet City</i>",["Cultural","Ecological"],"What the city's sensing system cannot see.","Helena's pick","FLAG: avoid <i>Where the City Can't See</i> (its 'Chinese-owned Detroit zone' imagery is an avoidable distraction in a national pavilion). International-contributor rationale to be written early."),
+"R01":("Microbial self-healing concrete — Jing Xu, Tongji",["Technological","Maintenance"],"Cracks open in days; bacteria mineralize over weeks; repair contracts and budgets run on years.","research add · Helena's pick",""),
+"R02":("Futian Mangrove Ecological Park — MCF long-term monitoring",["Maintenance","Cultural","Technological"],"Migration, breeding, daily monitoring rounds and annual plans answer to no project schedule.","research add · Helena's pick","Live data during the pavilion — the one card whose time section keeps growing."),
+"R03":("Smart Yingxian Wooden Pagoda — Tsinghua digital twin",["Material","Cultural","Maintenance"],"A 970-year structure, a lean measured in decades, scans in seconds — and a model that needs keepers.","research add · Helena's pick","Filed Technological; Maintenance is its strong second (early-warning monitoring is upkeep)."),
 }
 def weights(k, theme):
     w = [1]*6; w[TI[theme]] = 3
@@ -94,7 +97,7 @@ for theme, cn in THEMES:
     for k in sel[theme]:
         en, secs, oot, status, call = M[k]; t, sub, team = title_of(k); sc, cond, exhibit = shicha_of(k)
         num = k if not k.startswith("ART") else "ART"
-        if not res.get(k,{}).get('img'): missing.append((theme,k,t))
+        if not (res.get(k,{}).get('img') and os.path.exists(f"{D}/{ASSETS}/{res[k]['img']}")): missing.append((theme,k,t))
         if call: calls.append((theme,k,t,call))
         pair = ""
         if k=="36":
@@ -125,7 +128,8 @@ for theme, cn in THEMES:
   </div>
 </article>''')
     cards.append(f'<section class="theme" id="{theme.lower()}"><header><h2><span class="cn">{cn}</span> {theme}</h2><p class="count">{len(sel[theme])} projects</p></header>{"".join(items)}</section>')
-n_total = sum(len(v) for v in sel.values()); n_img = sum(1 for th in sel for k in sel[th] if res.get(k,{}).get('img'))
+n_total = sum(len(v) for v in sel.values()); n_img = sum(1 for th in sel for k in sel[th] if res.get(k,{}).get('img') and os.path.exists(f"{D}/{ASSETS}/{res[k]['img']}"))
+dist = ' · '.join(f"{t} {len(sel[t])}" for t,_ in THEMES)
 miss_html = "".join(f"<li><b>{H.escape(k)}</b> — {H.escape(t)} <span class='muted'>({th})</span></li>" for th,k,t in missing) or "<li>none</li>"
 calls_html = "".join(f"<li><b>{H.escape(k)}</b> {H.escape(t)} <span class='muted'>[{th}]</span> — {c}</li>" for th,k,t,c in calls)
 nav = "".join(f'<a href="#{t.lower()}">{cn} {t} <small>{len(sel[t])}</small></a>' for t,cn in THEMES)
@@ -166,7 +170,7 @@ h3{{margin:4px 0 2px;font-size:20px;line-height:1.25}}.en{{font-size:14px;color:
 <section class="appendix" id="appendix">
   <h2>Appendix A — Selection calls made in this pool (for Helena to keep or flip)</h2><ul>{calls_html}</ul>
   <h2>Appendix B — Images still pending ({n_total-n_img})</h2><p class="muted">Sources on gooood.cn (Aliyun OSS) and ArchDaily's CDN block direct download; a browser save into <code>{ASSETS}/&lt;id&gt;.jpg</code> fills any card automatically on rebuild.</p><ul>{miss_html}</ul>
-  <h2>Appendix C — Distribution</h2><p>Material 6 · Ecological 6 · Cultural 7 · Maintenance 7 · Financial 7 · Technological 7 = {n_total}. The thin native columns (Maintenance 2, Financial 3 in the raw pool) are filled here by swing calls, commissioned afterlife audits, and the art layer — the exhibition's own argument made visible rather than padded.</p>
+  <h2>Appendix C — Distribution</h2><p>{dist} = {n_total}. The thin native columns (Maintenance 2, Financial 3 in the raw pool) are filled here by swing calls, commissioned afterlife audits, and the art layer — the exhibition's own argument made visible rather than padded.</p>
   <p class="muted">Built from: Time_Differences_40_Project_Dossier (colleagues), In Time – Curatorial Review and Expanded Project Dossier (Chuany), In Time – Six Themes Project Organization (Chuany/Helena), Artwork Longlist. All verification gates from the 12 Sept review still apply.</p>
 </section>
 </div></body></html>'''
@@ -174,7 +178,7 @@ out = sys.argv[2] if len(sys.argv)>2 else f"{D}/In Time - Selected Projects in S
 open(out,'w',encoding='utf-8').write(page)
 md = ["# In Time / 时差 — Selection Calls (Jane, 16 Sept 2026)", "",
       f"Companion to *In Time - Selected Projects in Six Temporal Dimensions.html* ({n_total} projects, six categories). Every judgment below is mine, for Helena to keep or flip; nothing is confirmed, invited or cleared.", "",
-      "## Distribution", f"Material 6 · Ecological 6 · Cultural 7 · Maintenance 7 · Financial 7 · Technological 7 = {n_total}. Base = the proposed 30 (five per theme); top-ups from reserves/additions chosen to give the thin native columns (Maintenance 2, Financial 3) their commissioned audits, swing cases and art layer rather than padding.", "",
+      "## Distribution", f"{dist} = {n_total}. Base = the proposed 30 (five per theme); top-ups from reserves/additions chosen to give the thin native columns (Maintenance 2, Financial 3) their commissioned audits, swing cases and art layer rather than padding.", "",
       "## Calls (by category)"]
 for th,k,t,c in calls: md.append(f"- **{k}** {t} [{th}] — {re.sub(r'<[^>]+>','',c)}")
 md += ["", "## Images pending", "Sources on gooood.cn (Aliyun OSS) and ArchDaily's CDN block direct download; a browser save into in-time-assets/<id>.jpg fills the card on rebuild."]
