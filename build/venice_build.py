@@ -158,7 +158,6 @@ h3{{margin:4px 0 2px;font-size:20px;line-height:1.25}}.en{{font-size:14px;color:
 <header class="hero">
   <h1>In Time <span style="color:var(--acc)">/ 时差</span></h1>
   <p class="sub">Re-timing the Existing City · 重校既有城市的时间 — {n_total} projects across six temporal dimensions</p>
-  <div class="dash"><span>Venice Biennale 2027 · China Pavilion proposal</span><span>selection pool v1 · Jane · {today}</span><span>{n_img}/{n_total} images sourced</span><span>status: working document — nothing here is confirmed, invited, or cleared</span></div>
   <div class="stmt"><div><h4>Curatorial statement</h4>{paras(EN)}</div><div><h4>策展陈述（草稿）</h4>{paras(CN)}</div></div>
   <div class="legend"><b>How to read each card.</b> Every project holds all six temporal dimensions — <b>材料 Material · 生态 Ecological · 文化 Cultural · 维护 Maintenance · 资金 Financial · 技术 Technological</b> — in different proportions. The hexagonal <em>time-section profile</em> shows them bulging to different degrees (3 = the dimension the project was commissioned to serve, its filing category; 2 = dimensions it foregrounds; 1 = present but latent). <b>“Out of time with”</b> names the dimension it fails to keep pace with: that gap is the project's 时差. Cards marked <em>Curatorial call</em> are my selection judgments for Helena to keep or flip; <em>Gate</em> lines are the verification conditions before any invitation.</div>
 </header>
