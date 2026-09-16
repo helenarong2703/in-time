@@ -1,0 +1,304 @@
+{
+ "sel": {
+  "Material": [
+   "1",
+   "13",
+   "A01",
+   "A03",
+   "12",
+   "15"
+  ],
+  "Ecological": [
+   "30",
+   "20",
+   "19",
+   "28",
+   "A04",
+   "21"
+  ],
+  "Cultural": [
+   "4",
+   "3",
+   "6",
+   "A05",
+   "35",
+   "A08",
+   "5"
+  ],
+  "Maintenance": [
+   "9",
+   "8",
+   "25",
+   "A09",
+   "B01",
+   "B02",
+   "7"
+  ],
+  "Financial": [
+   "10",
+   "24",
+   "16",
+   "A02",
+   "B03",
+   "11",
+   "ART_LIUCHUANG"
+  ],
+  "Technological": [
+   "40",
+   "34",
+   "36",
+   "18",
+   "A06",
+   "37",
+   "ART_LIAMYOUNG"
+  ]
+ },
+ "results": {
+  "1": {
+   "url": "https://www.gooood.cn/conservation-and-renovation-of-nanjing-compressor-factory-youjiawa-residential-community-center-by-seu-arch-uag.htm",
+   "img": "1.jpg",
+   "img_src": "https://oss.gooood.cn/uploads/2025/05/000-Conservation-and-Renovation-of-Nanjing-Compressor-Factory-%E2%80%94-Youjiawa-Residential-Community-Center-by-SEU-ARCH-UAG-472x303.jpg",
+   "note": "ok"
+  },
+  "13": {
+   "url": "https://kkaa.co.jp/jp/project/hangzhou-xiaohe-park/",
+   "img": "13.jpg",
+   "img_src": "https://kkaa.co.jp/img/2024/02/01.jpg",
+   "note": "ok"
+  },
+  "A01": {
+   "url": "https://mvrdv.com/projects/467/shenzhen-women-and-children%27s-centre",
+   "img": "A01.jpg",
+   "img_src": "https://api.mvrdv.com/media/uploads/project/467/MVRDV%20Shenzhen%20Women%20Childrens%20Centre%201%20©%20Xia%20Zhi.jpg?width=1200",
+   "note": "ok"
+  },
+  "A03": {
+   "url": "https://www.cafa.edu.cn/st/2021/90121249.htm",
+   "img": "A03.jpg",
+   "img_src": "https://www.cafa.edu.cn/library/dynamic.images/info/2021919202429959.jpg",
+   "note": "ok"
+  },
+  "12": {
+   "url": "https://www.archiposition.com/items/dc167c1988",
+   "img": "12.jpg",
+   "img_src": "https://image.archiposition.com/2026/09/51788919585.png",
+   "note": "ok"
+  },
+  "15": {
+   "url": "https://www.gooood.cn/fuzhou-arsenal-chuanzheng-culture-mawei-shipyard-areas-conservation-and-constructionphase-i-by-beijing-huaqing-andi-architectural-design-co-ltd-fujian-provincial-institute-of-ar.htm",
+   "img": "15.jpg",
+   "img_src": "https://oss.gooood.cn/uploads/2024/07/000-Fuzhou-Arsenal-Chuanzheng-Culture-Mawei-Shipyard-Areas-Conservation-and-ConstructionPhase-I-472x303.jpg",
+   "note": "ok"
+  },
+  "30": {
+   "url": "https://www.mcf.org.cn/topics/list-45.html",
+   "img": "30.jpg",
+   "img_src": "https://www.mcf.org.cn/upload/service/202412/18/202412181427578087.jpg",
+   "note": "ok"
+  },
+  "20": {
+   "url": "https://www.turenscape.com/project/detail/4828.html",
+   "img": "20.jpg",
+   "img_src": "https://www.turenscape.com/upload/project/coverpic/e67dbc2f3a1d460b5a690827071c5d3f.jpg",
+   "note": "ok"
+  },
+  "19": {
+   "url": "https://www.gooood.cn/baoshan-waste-to-energy-center-by-ballistic-architecture-machine-bam.htm",
+   "img": "19.jpg",
+   "img_src": "https://oss.gooood.cn/uploads/2025/08/00-vcj-472x303.jpg",
+   "note": "ok"
+  },
+  "28": {
+   "url": "https://yn.people.com.cn/BIG5/n2/2020/1214/c378439-34471981.html",
+   "img": "",
+   "img_src": "",
+   "note": "no retrievable image (hotlink-blocked or none)"
+  },
+  "A04": {
+   "url": "https://www.yanwangpreston.com/projects/forest-images/story",
+   "img": "",
+   "img_src": "",
+   "note": "no retrievable image (hotlink-blocked or none)"
+  },
+  "21": {
+   "url": "https://www.turenscape.com/project/detail/4772.html",
+   "img": "21.jpg",
+   "img_src": "https://www.turenscape.com/upload/project/coverpic/c66ab792222ba0761e987cb2506d2458.jpg",
+   "note": "ok"
+  },
+  "4": {
+   "url": "https://www.shanghai.gov.cn/nw4411/20250629/122d68440df64622856c021d406fbbc7.html",
+   "img": "4.jpg",
+   "img_src": "https://www.shanghai.gov.cn/cmsres/ca/ca8ca10596df449dab4f66c1d5438470/1c67df1247b1b810c31d794d925213b4.jpg",
+   "note": "ok"
+  },
+  "3": {
+   "url": "https://lingganlb.com/index/index/detail.html?code=A8404517286156063145",
+   "img": "3.jpg",
+   "img_src": "http://s.lingganlb.com/f4/aff36b48de51c85e3190e7b9ccf9cc.jpg",
+   "note": "ok"
+  },
+  "6": {
+   "url": "https://www.archiposition.com/items/20210727020213",
+   "img": "6.jpg",
+   "img_src": "https://image.archiposition.com/2021/07/20210727141151youfang28.jpg",
+   "note": "ok"
+  },
+  "A05": {
+   "url": "https://shenzhennoted.com/wp-content/uploads/2016/06/e68fa1e6898b302e9a9bbe69d91e68b9be58b9f-the-handshake-302-urban-village-artist-residency.pdf",
+   "img": "",
+   "img_src": "",
+   "note": "no retrievable image (hotlink-blocked or none)"
+  },
+  "35": {
+   "url": "https://www.vivearts.com/zh-CN/projects/the-eternal-wave",
+   "img": "35.jpg",
+   "img_src": "https://ucca.org.cn/storage/public/images/a/7/737552-722309-16aabb.fb.jpg",
+   "note": "ok"
+  },
+  "A08": {
+   "url": "https://www.1000plateaus.org/cn/exhibitions/122-chen-qiulin-heartland/",
+   "img": "A08.jpg",
+   "img_src": "https://static-assets.artlogic.net/w_1200,h_630,c_fill,f_auto,fl_lossy,q_auto/ws-athousandplateausartspace/usr/images/exhibitions/main_image_override/122/45aca4b8d5b1ef6822d63ea919736ef8.jpg",
+   "note": "ok"
+  },
+  "5": {
+   "url": "https://www.archiposition.com/items/20240408060241",
+   "img": "5.jpg",
+   "img_src": "https://image.archiposition.com/2024/04/20240408181442youfang51.jpg",
+   "note": "ok"
+  },
+  "9": {
+   "url": "https://www.archdaily.com/zh/1002429/xiang-zi-li-jie-qu-star-she-qu-gong-gong-kong-jian-geng-xin-jie-jian-zhu",
+   "img": "9.jpg",
+   "img_src": "https://images.adsttc.com/media/images/6489/99cf/cb9c/4601/7c17/65c3/large_jpg/not-ready-yulin-alley-neighborhood-star-community-public-space-renovation-nhoow-architects_5.jpg?1686739419",
+   "note": "ok"
+  },
+  "8": {
+   "url": "https://www.shcn.gov.cn/col7343/20220926/1222508.html",
+   "img": "8.jpg",
+   "img_src": "https://cn.storage.shmedia.tech/7f8b864ebabe4f22835f1b6c25f11a45.jpg",
+   "note": "ok"
+  },
+  "25": {
+   "url": "https://www.gooood.cn/get-project-case-sharing-no-17-ancha-museum-factory.htm",
+   "img": "25.jpg",
+   "img_src": "https://oss.gooood.cn/uploads/2024/06/00-17-get-project-case-472x303.jpg",
+   "note": "ok"
+  },
+  "A09": {
+   "url": "https://designtrust.hk/grant-recipients/infrastructure-of-the-ordinary-the-shanzhai-trolley/",
+   "img": "A09.jpg",
+   "img_src": "https://designtrust.hk/wp-content/uploads/2026/05/Image-1-1280x905.jpg",
+   "note": "ok · replaced 16 Sep: fieldwork collage from the project page (was Design Trust promo tile)"
+  },
+  "B01": {
+   "url": "https://www.hpp.com/en/projects/expo-village-shanghai/",
+   "img": "B01.jpg",
+   "img_src": "https://www.hpp.com/fileadmin/_processed_/8/a/csm_P_206051_N14-2_1be95bb43a.jpg",
+   "note": "ok"
+  },
+  "B02": {
+   "url": "https://english.beijing.gov.cn/forum/citytour/citytourleft/202410/t20241009_3912444.html",
+   "img": "B02.jpg",
+   "img_src": "https://english.beijing.gov.cn/forum/citytour/citytourleft/202410/W020241122572218310438.jpg",
+   "note": "ok"
+  },
+  "7": {
+   "url": "https://hznews.hangzhou.com.cn/chengshi/content/2024-01/05/content_8670383.htm",
+   "img": "7.jpg",
+   "img_src": "https://hznews.hangzhou.com.cn/chengshi/content/2024-01/05/8d2b8b8e-db3c-407a-b5cb-03e81601fc75.jpg",
+   "note": "ok"
+  },
+  "10": {
+   "url": "https://www.ndrc.gov.cn/xwdt/ztzl/czljxqgz/202112/t20211206_1306955.html",
+   "img": "",
+   "img_src": "https://www.ndrc.gov.cn/images/dayin.png",
+   "note": "no retrievable image (hotlink-blocked or none)"
+  },
+  "24": {
+   "url": "https://www.gooood.cn/culture-living-space-of-dabu-village-songxi-county-by-cocoon-studio-shanghai.htm",
+   "img": "24.jpg",
+   "img_src": "https://oss.gooood.cn/uploads/2024/08/000-Culture-Living-Space-of-Dabu-Village-Songxi-County-by-Cocoon-Studio-Shanghai-472x303.jpg",
+   "note": "ok"
+  },
+  "16": {
+   "url": "https://www.gooood.cn/gate-m-west-bund-dream-center-by-mvrdv.htm",
+   "img": "16.jpg",
+   "img_src": "https://oss.gooood.cn/uploads/2025/07/000-GATE-M-West-Bund-Dream-Center-by-MVRDV-psi-472x303.jpg",
+   "note": "ok"
+  },
+  "A02": {
+   "url": "https://www.urbanus.com.cn/writings/coexistence-and-regeneration-in-nantou/",
+   "img": "",
+   "img_src": "",
+   "note": "no retrievable image (hotlink-blocked or none)"
+  },
+  "B03": {
+   "url": "https://ghzyj.sh.gov.cn/tpxw/20201029/bdb18d2cc3414b6d921a80a2fcfcd7f6.html",
+   "img": "B03.jpg",
+   "img_src": "https://ghzyj.sh.gov.cn/cmsres/93/935b6b11a1584cedbdca4bc611134e50/c4ca4238a0b923820dcc509a6f75849b.jpg",
+   "note": "ok"
+  },
+  "11": {
+   "url": "https://www.archiposition.com/items/01e964dee7",
+   "img": "11.jpg",
+   "img_src": "https://image.archiposition.com/2026/09/51788855570.png",
+   "note": "ok"
+  },
+  "ART_LIUCHUANG": {
+   "url": "https://www.antenna-space.com/en/artists/liu-chuang",
+   "img": "ART_LIUCHUANG.jpg",
+   "img_src": "https://images.e-flux.com/test/b4c8be7f-b1e9-4dcd-a077-1dfe29fa689c?width=1200&height=630",
+   "note": "ok"
+  },
+  "40": {
+   "url": "https://www.stdaily.com/web/gdxw/2026-01/05/content_457227.html",
+   "img": "40.jpg",
+   "img_src": "https://www.stdaily.com/web/gdxw/pic/2026-01/05/457227_7e0d60b4-01bd-412f-a102-f37d1f9c3fe3.jpeg",
+   "note": "ok"
+  },
+  "34": {
+   "url": "https://archt.xmu.edu.cn/info/1013/16274.htm",
+   "img": "34.jpg",
+   "img_src": "https://archt.xmu.edu.cn/virtual_attach_file.vsb?afc=uozMUVMNVVL87DUnNWRL7CbU4-Ynz7SanzvPnRTVoRW2LzC0gihFp2hmCIa0MYyin1yaL1hfLzWfLmGZUl-ZM8LaLNU4nmU4UzLYUNWko7QFol7iLmTVUzfFLmnfMmGJqjfjo4OeoDVYCDA8gDTJQty0LzGPLYyPMm-sMkbw62z8c&oid=1536669093&tid=1013&nid=16274&e=.jpg",
+   "note": "ok · replaced 16 Sep: point-cloud model of the hall from the XMU article (was site banner)"
+  },
+  "36": {
+   "url": "https://developer.cloud.tencent.com/article/1142352",
+   "img": "36.jpg",
+   "img_src": "https://ask.qcloudimg.com/http-save/yehe-1489038/a7tme9wr9s.jpeg",
+   "note": "ok · replaced 16 Sep: hillside + tunnel portal, from the Tencent Cloud developer article (was esports press photo)"
+  },
+  "18": {
+   "url": "https://www.gooood.cn/spark-761-beijing-digital-economy-aidc-by-lllab.htm",
+   "img": "18.jpg",
+   "img_src": "https://oss.gooood.cn/uploads/2025/09/142-SPARK-761-Beijing-Digital-Economy-AIDC-472x303.jpg",
+   "note": "ok"
+  },
+  "A06": {
+   "url": "https://wendiyan.com/01-biotopy",
+   "img": "A06.jpg",
+   "img_src": "https://freight.cargo.site/w/1200/i/C2041248833422347121657939969755/241026_Installation_3-corrected_cropped.png",
+   "note": "ok"
+  },
+  "37": {
+   "url": "https://ecas.cas.cn/xxkw/kbcd/201115_144389/ml/xxhjsyjcss/202312/t20231227_4992971.html",
+   "img": "",
+   "img_src": "https://ecas.cas.cn/images/2023ty_backtop.png",
+   "note": "no retrievable image (hotlink-blocked or none)"
+  },
+  "ART_LIAMYOUNG": {
+   "url": "https://www.liamyoung.org/projects/planet-city",
+   "img": "",
+   "img_src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxnIGNsaXAtcGF0aD0idXJsKCNjbGlwMCkiPgo8cGF0aCBkPSJNMTAwIDBIMFYxMDBIMTAwVjBaIiBmaWxsPSIjRjJGMkYyIi8+CjxwYXRoIGQ9Ik00OS45OTIyIDAuMDAwOTYxNDc1TC0wLjAwNjgxMzA1IDUwTDQ5Ljk5MjIgOTkuOTk5TDk5Ljk5MTMgNTBMNDkuOTkyMiAwLjAwMDk2MTQ3NVoiIGZpbGw9IiNGRjU1NTUiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMCI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=",
+   "note": "no retrievable image (hotlink-blocked or none)"
+  },
+  "A07": {
+   "url": "https://aagff.mplus.org.hk/en/stories/avant-garde-now-hidden-spaces/",
+   "img": "A07.jpg",
+   "img_src": "https://aagff.mplus.org.hk/og_image_3.jpg",
+   "note": "ok"
+  }
+ }
+}

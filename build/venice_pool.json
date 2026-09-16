@@ -1,0 +1,944 @@
+{
+ "cases": {
+  "1": {
+   "num": 1,
+   "title": "尤家凹居住社区中心",
+   "sub": "江苏南京 · 2023建成",
+   "team": "东南大学建筑学院UAG工作室",
+   "tags": "材料与建筑 × 生活与代际 × 劳动与维护",
+   "facts": "保留南京压缩机厂的厂房结构，置入菜场、文体及社区服务；设计说明记载了退休职工的反馈。",
+   "shicha": "工业生产已经结束，结构、工人记忆和周边居民的日常需要仍在延续。",
+   "exhibit": "旧网架节点与新增空间剖面，配合原职工和现使用者的时间记录。",
+   "cond": "核心。需实际开放时段、使用者反馈与维护记录；不能把设计功能表当作运营实绩。",
+   "links": [
+    [
+     "https://www.gooood.cn/conservation-and-renovation-of-nanjing-compressor-factory-youjiawa-residential-community-center-by-seu-arch-uag.htm",
+     "UAG供稿：尤家凹社区中心"
+    ]
+   ]
+  },
+  "2": {
+   "num": 2,
+   "title": "欧阳路历史街区三处微更新：已完成部分",
+   "sub": "上海虹口 · 2025设计；2026已完成节点",
+   "team": "山水秀建筑事务所；欧阳路街道、市政总院及协作团队",
+   "tags": "材料与建筑 × 生活与代际 × 治理与资金",
+   "facts": "项目包含口袋公园、野草咖啡厅及长寿家园立面更新。2026年9月供稿明确：养老院内院仍在改造。",
+   "shicha": "街区形象更新的交付时间，与养老照护、树木生长和居民长期使用并不一致。",
+   "exhibit": "三个节点的共同街区剖面；仅将已完成立面、公园和咖啡厅计入建成范围。",
+   "cond": "对读。不得把尚未完成的养老院内院或整个片区写成已经完成。",
+   "links": [
+    [
+     "https://www.gooood.cn/three-micro-renovations-in-the-ouyang-road-historic-quarter-by-scenic-architecture-office.htm",
+     "山水秀供稿：欧阳路三处微更新"
+    ]
+   ]
+  },
+  "3": {
+   "num": 3,
+   "title": "退休房／退休宅",
+   "sub": "北京海淀 · 2025已有建成报道；文内年代标注不一",
+   "team": "七巧天工设计：王冰洁、郑昊鸿",
+   "tags": "生活与代际 × 材料与建筑 × 劳动与维护",
+   "facts": "两位老人居住的旧三居经调整，闲置卧室转为日常活动空间，并设置书画、收纳和适老动线。",
+   "shicha": "家庭人口与身体能力持续变化，住宅的原始房间分配却长期固定；子女与父母的改善愿望也可能不同。",
+   "exhibit": "两代人的平面标注与一天活动记录，展示改造协商中的具体选择。",
+   "cond": "核心。优先取得老人自己的评价。来源标题区写2024，项目表写2025年2月，故不强行给出单一竣工日。",
+   "links": [
+    [
+     "https://lingganlb.com/index/index/detail.html?code=A8404517286156063145",
+     "七巧天工项目资料：退休房"
+    ]
+   ]
+  },
+  "4": {
+   "num": 4,
+   "title": "彭一小区原拆原建：已交付住宅",
+   "sub": "上海静安 · 2021开工；2025年6月启动回搬",
+   "team": "静安区、彭浦新村街道、上海市房屋建筑设计院及建设团队",
+   "tags": "生活与代际 × 治理与资金 × 材料与建筑 × 劳动与维护",
+   "facts": "老住宅拆建后交付回搬；政府报道记录了多轮户型调整以及长期居住于此的老年居民。",
+   "shicha": "数年的过渡居住，占据老年人有限生命的一部分；原址返回也不自动恢复原有邻里关系。",
+   "exhibit": "匿名家庭生命线与拆建、过渡、回搬时间对齐；并列不同户型迭代。",
+   "cond": "核心对照。需说明拆除必要性、过渡生活和实际回搬体验；不将报道时尚未完成的配套综合体计为建成。",
+   "links": [
+    [
+     "https://www.shanghai.gov.cn/nw4411/20250629/122d68440df64622856c021d406fbbc7.html",
+     "上海市政府：彭一小区回搬"
+    ]
+   ]
+  },
+  "5": {
+   "num": 5,
+   "title": "福田中学改扩建",
+   "sub": "广东深圳 · 2023建成",
+   "team": "reMIX临界工作室＋华阳国际",
+   "tags": "生活与代际 × 材料与建筑 × 治理与资金",
+   "facts": "原址更新的校园通过密集复合的空间安排容纳增加的教育需求，并设计了与社区衔接的设施。",
+   "shicha": "每届学生仅在校数年，校园建设与城市人口变化却跨越更长周期；教学和社区活动具有不同时间表。",
+   "exhibit": "一周设施时刻表与校园剖面叠合，展示开放与管理界面。",
+   "cond": "对读。社区共享须核实运营规则，不能仅凭设计意图声称已经长期开放。",
+   "links": [
+    [
+     "https://www.archiposition.com/items/20240408060241",
+     "设计团队供稿：福田中学"
+    ]
+   ]
+  },
+  "6": {
+   "num": 6,
+   "title": "西安老菜场市井文化街区一期",
+   "sub": "陕西西安 · 2020年5月建成",
+   "team": "行止计画 BoundsPlan及运营合作方",
+   "tags": "生活与代际 × 材料与建筑 × 治理与资金 × 劳动与维护",
+   "facts": "更新在既有市场和旧厂房条件中展开，以一期介入连接日常买菜与新增空间活动。",
+   "shicha": "每日经营依赖稳定的路径与租用条件，新消费和改造投入则按另一套周期组织。",
+   "exhibit": "摊位日历、分期剖面和租用变化的并置。",
+   "cond": "核心。保留市场外观不足以证明原商户持续受益，需核实商户更替、费用与经营时段。",
+   "links": [
+    [
+     "https://www.archiposition.com/items/20210727020213",
+     "设计团队供稿：西安老菜场一期"
+    ]
+   ]
+  },
+  "7": {
+   "num": 7,
+   "title": "文二菜市A馆更新",
+   "sub": "浙江杭州 · 2024年1月开放",
+   "team": "沈雷／内建筑及市场运营团队",
+   "tags": "生活与代际 × 劳动与维护 × 治理与资金",
+   "facts": "老菜市A馆完成更新后开放，报道将其与仍待推进的其他部分区分。",
+   "shicha": "装修停业与开业节点影响每日采买和商户收入；设计品质需要持续的清洁与运营支撑。",
+   "exhibit": "早市、收市与清洁三个时段的空间记录及商户时间线。",
+   "cond": "对读。只选A馆，核实摊主延续与实际价格可及性。",
+   "links": [
+    [
+     "https://hznews.hangzhou.com.cn/chengshi/content/2024-01/05/content_8670383.htm",
+     "杭州网：文二菜市A馆开放"
+    ]
+   ]
+  },
+  "8": {
+   "num": 8,
+   "title": "新华社区营造中心",
+   "sub": "上海长宁 · 2022年9月开放",
+   "team": "新华路街道＋大鱼营造及社区参与者",
+   "tags": "生活与代际 × 治理与资金 × 劳动与维护",
+   "facts": "已开放的社区营造场所为居民活动和共同参与提供固定空间。",
+   "shicha": "一次空间交付容易被看见，持续组织活动、协调意见与维护关系则依赖反复投入的劳动。",
+   "exhibit": "居民发起事项与空间变动共同构成的日历；展现参与者的实际决策。",
+   "cond": "对读。需区分活动数量、稳定参与和真正拥有决策权。",
+   "links": [
+    [
+     "https://www.shcn.gov.cn/col7343/20220926/1222508.html",
+     "长宁区政府：新华社区营造中心"
+    ]
+   ]
+  },
+  "9": {
+   "num": 9,
+   "title": "巷子里街区·社区公共空间更新",
+   "sub": "四川成都 · 2020—2022三期落地",
+   "team": "一介建筑 Nhoow＋玉林东路社区",
+   "tags": "生活与代际 × 劳动与维护 × 治理与资金 × 材料与建筑",
+   "facts": "项目经历残障友好空间、社区平台及长寿食坊等连续阶段；设计团队同时参与运营。",
+   "shicha": "需求通过使用才逐渐显现，一次性任务书难以预先容纳后续参与者和活动。",
+   "exhibit": "三期平面与反馈事件叠合，每次调整标明提出者、时机和后续影响。",
+   "cond": "核心。是最直接检验时间剖面方法的案例之一，需补充2022年之后的使用变化。",
+   "links": [
+    [
+     "https://www.archdaily.com/zh/1002429/xiang-zi-li-jie-qu-star-she-qu-gong-gong-kong-jian-geng-xin-jie-jian-zhu",
+     "一介供稿：巷子里三期更新"
+    ]
+   ]
+  },
+  "10": {
+   "num": 10,
+   "title": "劲松北社区改造一期示范区",
+   "sub": "北京朝阳 · 2019年8月完成示范改造",
+   "team": "劲松街道、愿景集团及居民／物业合作方",
+   "tags": "治理与资金 × 劳动与维护 × 生活与代际",
+   "facts": "改造连接政府基础投入、企业投入和后续物业经营；官方案例说明了前三年的物业支持安排。",
+   "shicha": "短期建设与支持资金，必须连接长期服务、维修和居民支付能力。",
+   "exhibit": "建设、资金支持和维护三条线，对齐服务变化与居民反馈。",
+   "cond": "核心。需取得支持期之后的实际运营记录；不把财务模型当成已经验证的可持续结果。",
+   "links": [
+    [
+     "https://www.ndrc.gov.cn/xwdt/ztzl/czljxqgz/202112/t20211206_1306955.html",
+     "国家发展改革委：劲松案例"
+    ]
+   ]
+  },
+  "11": {
+   "num": 11,
+   "title": "青灯村公共美术馆",
+   "sub": "江苏苏州 · 2024年10月开始设计；2026年8月完成",
+   "team": "佚建筑工作室",
+   "tags": "材料与建筑 × 治理与资金 × 生活与代际",
+   "facts": "行政调整后闲置的村委楼被改为复合文化空间，保留既有框架。",
+   "shicha": "行政用途的结束早于结构寿命；改造完成也早于稳定公共生活的形成。",
+   "exhibit": "村委楼—闲置—改造—使用的连续剖面，标明仍在形成的关系。",
+   "cond": "对读。供稿部分“运营后场景”明确标注AI生成，不能当作实际使用证据。",
+   "links": [
+    [
+     "https://www.archiposition.com/items/01e964dee7",
+     "佚建筑供稿：青灯村公共美术馆"
+    ]
+   ]
+  },
+  "12": {
+   "num": 12,
+   "title": "先锋会泽白雾书局",
+   "sub": "云南曲靖会泽 · 2024设计；2025年4月完成施工",
+   "team": "家琨建筑＋先锋书店；会泽铜都文旅",
+   "tags": "材料与建筑 × 生活与代际 × 劳动与维护",
+   "facts": "废弃粮仓的危旧屋架被替换，旧夯土墙保留为围护，新结构承担荷载；墙面亦有新的艺术处理。",
+   "shicha": "墙体、屋架和原用途具有不同的终止时间，物质留存与历史意义变化并不同步。",
+   "exhibit": "旧墙—新结构的实体节点及粮仓功能、地方记忆和经营的时间剖面。",
+   "cond": "对读。保留原物不等于保持原貌；需讨论墙面涂饰、材料老化和居民可及性。",
+   "links": [
+    [
+     "https://www.archiposition.com/items/dc167c1988",
+     "家琨建筑供稿：先锋会泽白雾书局"
+    ]
+   ]
+  },
+  "13": {
+   "num": 13,
+   "title": "小河公园",
+   "sub": "浙江杭州 · 2023年4月完成（事务所记录）",
+   "team": "隈研吾建筑都市设计事务所及合作团队",
+   "tags": "材料与建筑 × 生态与地域 × 劳动与维护",
+   "facts": "原油库场地转为公共公园，旧罐体与新增公共空间并置。",
+   "shicha": "工业退场可以有明确日期，场地生态变化和设施维护却持续发生。",
+   "exhibit": "油库—公园的地上地下剖面及不同时间的使用记录。",
+   "cond": "对读。须有环境修复记录，不能用绿化照片推断污染已经消除。",
+   "links": [
+    [
+     "https://kkaa.co.jp/jp/project/hangzhou-xiaohe-park/",
+     "隈研吾事务所：Hangzhou Xiaohe Park"
+    ],
+    [
+     "https://www.gooood.cn/hangzhou-xiaohe-park-by-kengo-kuma-and-associates.htm",
+     "项目供稿：小河公园"
+    ]
+   ]
+  },
+  "14": {
+   "num": 14,
+   "title": "宜兴陶二厂文化提升",
+   "sub": "江苏宜兴 · 2023—2024建成项目",
+   "team": "予舍予筑",
+   "tags": "材料与建筑 × 劳动与维护 × 生活与代际",
+   "facts": "陶业旧厂区以建筑修整、旧砖利用和公共空间更新接续新的活动。",
+   "shicha": "建筑可迅速转为文化消费场所，陶业技能与生产关系却需要更长时间传承。",
+   "exhibit": "回收砖构造与陶业劳动时间并置，显示哪些工序仍在发生。",
+   "cond": "对读。选题范围是予舍予筑的陶二厂更新，不与其他团队的陶艺博物馆混称。",
+   "links": [
+    [
+     "https://www.gooood.cn/cultural-revitalization-of-yixing-creative-cultural-ceramic-avenue-ccca-by-yushe-yuzhu.htm",
+     "予舍予筑供稿：陶二厂文化提升"
+    ]
+   ]
+  },
+  "15": {
+   "num": 15,
+   "title": "马尾船厂片区保护建设一期",
+   "sub": "福建福州 · 2023建成",
+   "team": "北京华清安地＋福建省建筑设计研究院等",
+   "tags": "材料与建筑 × 劳动与维护 × 生活与代际 × 治理与资金",
+   "facts": "工业生产迁出后，对船厂不同时期的建筑进行分类保护和改用。",
+   "shicha": "生产停止、保护立项和劳动记忆的消退具有不同速度。",
+   "exhibit": "跨年代厂房剖面与工序、工人经历和保护措施的对齐。",
+   "cond": "对读。应保留生产史的复杂性，避免只展示修复后的统一风貌。",
+   "links": [
+    [
+     "https://www.gooood.cn/fuzhou-arsenal-chuanzheng-culture-mawei-shipyard-areas-conservation-and-constructionphase-i-by-beijing-huaqing-andi-architectural-design-co-ltd-fujian-provincial-institute-of-ar.htm",
+     "设计团队供稿：马尾船厂一期"
+    ]
+   ]
+  },
+  "16": {
+   "num": 16,
+   "title": "GATE M西岸梦中心",
+   "sub": "上海徐汇 · 2025建成项目记录",
+   "team": "MVRDV＋Field Operations等",
+   "tags": "材料与建筑 × 治理与资金 × 生活与代际",
+   "facts": "改造同时利用原水泥厂遗存和此前未完成开发留下的结构。",
+   "shicha": "建筑物质可以延续，投资方案却可能中断、更替；空间在不同开发周期中等待。",
+   "exhibit": "原工厂、上一轮开发与现阶段三套剖面叠合。",
+   "cond": "对读。需解释公共可达性及经营条件；商业成功不能替代对公共价值的判断。",
+   "links": [
+    [
+     "https://www.gooood.cn/gate-m-west-bund-dream-center-by-mvrdv.htm",
+     "MVRDV供稿：GATE M"
+    ]
+   ]
+  },
+  "17": {
+   "num": 17,
+   "title": "西三旗砖窑里创新场",
+   "sub": "北京海淀 · 2023年10月建成",
+   "team": "MAT超级建筑事务所",
+   "tags": "材料与建筑 × 劳动与维护 × 治理与资金",
+   "facts": "旧工业空间经过分期设计与施工形成新的使用场所，旧砖窑遗存参与空间组织。",
+   "shicha": "窑炉和厂房的物质寿命，超过其原生产周期；改用又带来新的维修和经营节奏。",
+   "exhibit": "窑体节点、维修边界与空间用途变更的时间剖面。",
+   "cond": "对读。须证明旧物延用的具体范围，并呈现实际使用而非仅保留的形式。",
+   "links": [
+    [
+     "https://www.gooood.cn/brick-kiln-lane-innovation-by-mat.htm",
+     "MAT供稿：砖窑里创新场"
+    ]
+   ]
+  },
+  "18": {
+   "num": 18,
+   "title": "星火761北京数字经济算力中心",
+   "sub": "北京 · 2025年4月建成",
+   "team": "llLab.叙向建筑设计及业主／技术协作方",
+   "tags": "材料与建筑 × 计算与反馈 × 劳动与维护 × 生态与地域",
+   "facts": "旧电子工业空间被更新为包含数字经济和算力相关功能的复合场所。",
+   "shicha": "厂房可能服务数十年，机电和计算设备更替更快，城市数字服务又要求连续运行。",
+   "exhibit": "旧厂房—机电—算力设备的嵌套剖面及可更换节点。",
+   "cond": "核心。需核实实际投入使用的计算功能；不能用建筑竣工推断全部算力已投运。",
+   "links": [
+    [
+     "https://www.gooood.cn/spark-761-beijing-digital-economy-aidc-by-lllab.htm",
+     "llLab.供稿：星火761"
+    ]
+   ]
+  },
+  "19": {
+   "num": 19,
+   "title": "宝山垃圾焚烧发电中心建筑与景观",
+   "sub": "上海宝山 · 2025建筑与景观完成",
+   "team": "BAM承担建筑与景观；能源工程及运营另有专业团队",
+   "tags": "生态与地域 × 材料与建筑 × 劳动与维护 × 治理与资金",
+   "facts": "原工业场地形成垃圾处理设施，并以建筑、景观和参观路径向公众解释其过程。",
+   "shicha": "每天不断产生的城市废物，要由长期固定设施处理；处理需求与资源减量目标也可能变化。",
+   "exhibit": "每日物质流与多年设施维护叠合，包含灰渣等后续过程。",
+   "cond": "对读。不能仅依据建筑团队宣传判断净减碳或环保绩效；BAM不是全部工程的作者。",
+   "links": [
+    [
+     "https://www.gooood.cn/baoshan-waste-to-energy-center-by-ballistic-architecture-machine-bam.htm",
+     "BAM供稿：宝山垃圾焚烧发电中心"
+    ]
+   ]
+  },
+  "20": {
+   "num": 20,
+   "title": "鱼尾洲公园",
+   "sub": "江西南昌 · 2021建成",
+   "team": "土人设计",
+   "tags": "生态与地域 × 材料与建筑 × 劳动与维护",
+   "facts": "在鱼塘和受工业活动影响的场地上，通过水陆空间组织形成适应水位变化的公园。",
+   "shicha": "开园是一个事件，水位、植被演替和场地恢复则有周期与不确定性。",
+   "exhibit": "同一断面在不同水位下的变化，并与多年植被记录连接。",
+   "cond": "对读。生态效果需连续记录支持，不将设计目标直接写成恢复结果。",
+   "links": [
+    [
+     "https://www.turenscape.com/project/detail/4828.html",
+     "土人设计：鱼尾洲项目"
+    ]
+   ]
+  },
+  "21": {
+   "num": 21,
+   "title": "美舍河凤翔湿地公园",
+   "sub": "海南海口 · 2017建成开放",
+   "team": "土人设计及河道治理、建设运营团队",
+   "tags": "生态与地域 × 治理与资金 × 劳动与维护",
+   "facts": "河道治理与湿地公园建设共同改变场地，形成城市公共空间。",
+   "shicha": "短期工程推进必须接续长期水质改善、污水管理和湿地维护。",
+   "exhibit": "工程节点、枯丰水季与连续水质记录组成的流域剖面。",
+   "cond": "对读。水质改善不能全部归因于景观设计；需明确截污等工程的作用。",
+   "links": [
+    [
+     "https://www.turenscape.com/project/detail/4772.html",
+     "土人设计：美舍河凤翔湿地"
+    ],
+    [
+     "https://news.cnr.cn/native/gd/20180413/t20180413_524197488.shtml",
+     "央广网：美舍河治理报道"
+    ]
+   ]
+  },
+  "22": {
+   "num": 22,
+   "title": "顺德云鹭湿地博物馆",
+   "sub": "广东佛山 · 2024年9月建成",
+   "team": "Link-Arc建筑事务所／陆轶辰及合作方",
+   "tags": "生态与地域 × 生活与代际 × 材料与建筑",
+   "facts": "博物馆围绕湿地与林木组织观看路径，设计强调建筑与鸟类栖息环境的关系。",
+   "shicha": "人的短时参观、鸟类活动和树木生长共享同一场地，却需要不同的距离与安静条件。",
+   "exhibit": "视线、路径和季节活动的共同剖面。",
+   "cond": "对读。应核实照明、游客量与栖息变化；不能以“看得见鸟”证明没有干扰。",
+   "links": [
+    [
+     "https://www.archiposition.com/items/20241226112108",
+     "Link-Arc供稿：云鹭湿地博物馆"
+    ]
+   ]
+  },
+  "23": {
+   "num": 23,
+   "title": "沉湖鸟类迁徙观测塔",
+   "sub": "湖北武汉蔡甸 · 2026设计并建成",
+   "team": "相南建筑事务所；和作结构、大界智造等",
+   "tags": "生态与地域 × 劳动与维护 × 计算与反馈 × 生活与代际",
+   "facts": "塔体通过参数化设计与预制装配连接制造和现场建造，供人在湿地环境中逐步观察。",
+   "shicha": "快速制造与装配，进入鸟类迁徙、季节天气和长期防腐维护的节奏。",
+   "exhibit": "预制模块、装配日历与迁徙季观察并置。",
+   "cond": "对读。2026年9月尚不足以验证建成后的多年生态影响，可作为持续更新案例。",
+   "links": [
+    [
+     "https://www.archiposition.com/items/13beda59bd",
+     "相南建筑供稿：沉湖观测塔"
+    ]
+   ]
+  },
+  "24": {
+   "num": 24,
+   "title": "大布村文化生活空间",
+   "sub": "福建南平松溪 · 2024年8月建成",
+   "team": "可空建筑 Cocoon Studio及村集体／当地建设者",
+   "tags": "治理与资金 × 材料与建筑 × 生活与代际 × 劳动与维护",
+   "facts": "以租用闲置民居的方式组织公共文化空间，在原产权关系下实施改造。",
+   "shicha": "租赁期限、建筑维修周期与家庭代际安排并不天然重合。",
+   "exhibit": "匿名化使用协议与建筑节点对照，显示谁在何时拥有使用与改变的权利。",
+   "cond": "核心。需清楚说明租期、退出和维修安排，避免将暂时闲置等同于永久可支配。",
+   "links": [
+    [
+     "https://www.gooood.cn/culture-living-space-of-dabu-village-songxi-county-by-cocoon-studio-shanghai.htm",
+     "可空建筑供稿：大布村文化生活空间"
+    ]
+   ]
+  },
+  "25": {
+   "num": 25,
+   "title": "安茶博物馆工场",
+   "sub": "湖南益阳安化 · 2023完全建成（设计师访谈）",
+   "team": "普罗建筑 office PROJECT：李汶翰、常可",
+   "tags": "劳动与维护 × 生态与地域 × 生活与代际 × 材料与建筑",
+   "facts": "围绕地方茶文化组织建筑、展览与工场空间；设计师访谈记载材料与建造做法的现场调整。",
+   "shicha": "茶的季节与工艺时间，可能被游客的短时体验重新编排。",
+   "exhibit": "一段制作工序与建造调整并置，明确哪些是日常生产、哪些是演示。",
+   "cond": "对读，证据要求较高。项目名称包含“工场”，不能据此断言持续生产已经形成。",
+   "links": [
+    [
+     "https://www.gooood.cn/get-project-case-sharing-no-17-ancha-museum-factory.htm",
+     "谷德对设计师访谈：安茶博物馆工场"
+    ]
+   ]
+  },
+  "26": {
+   "num": 26,
+   "title": "丰梧季·乡村记忆博物馆",
+   "sub": "安徽黄山黟县 · 2024建成",
+   "team": "IARA：刘鲁滨、张靓秋",
+   "tags": "生活与代际 × 材料与建筑 × 治理与资金",
+   "facts": "在旧宅已经消失的场地上新建小型记忆博物馆，以地方日常物件组织叙事。",
+   "shicha": "建筑可以重新建起，生活记忆却分散在不同人的一生中，且不断变化。",
+   "exhibit": "物件传承与场地变化两条线，由村民补充讲述。",
+   "cond": "对读。应标明新建性质，不能称为原宅保留；检验谁有权决定被展示的记忆。",
+   "links": [
+    [
+     "https://www.gooood.cn/fw-ji-the-rural-memory-museum-by-iara.htm",
+     "IARA供稿：丰梧季记忆博物馆"
+    ]
+   ]
+  },
+  "27": {
+   "num": 27,
+   "title": "青山艺术村文化礼堂",
+   "sub": "浙江杭州 · 2024建成",
+   "team": "MOMENTUM建筑设计事务所：黄明健",
+   "tags": "生活与代际 × 材料与建筑 × 劳动与维护",
+   "facts": "原礼堂拆除后重建，新的场所承担村庄集体活动。",
+   "shicha": "物质替换与集体生活延续并不等价；新建筑应接续反复发生的礼仪与活动。",
+   "exhibit": "一年的集体活动与旧新礼堂空间对照。",
+   "cond": "对读。明确拆除重建事实，并解释为何不能采用修缮或局部更换。",
+   "links": [
+    [
+     "https://www.gooood.cn/qingshan-art-village-cultural-hall-by-momentum-architects.htm",
+     "MOMENTUM供稿：青山文化礼堂"
+    ]
+   ]
+  },
+  "28": {
+   "num": 28,
+   "title": "洱海生态廊道阳南溪—才村示范段",
+   "sub": "云南大理 · 2020开放的约12公里示范段",
+   "team": "大理地方政府、苍洱投资及多专业设计建设团队",
+   "tags": "生态与地域 × 生活与代际 × 治理与资金 × 劳动与维护",
+   "facts": "限定选择已经开放的示范段，将湖岸生态治理与公共慢行空间联系起来。",
+   "shicha": "岸线改造的项目周期，与湖泊恢复及周边居民生活变化所需的时间不同。",
+   "exhibit": "同一湖岸的水位、通行和生活变化剖面。",
+   "cond": "对读。不要将全线规模、迁居人数或绩效套到这一示范段；需呈现居民实际经历。",
+   "links": [
+    [
+     "https://yn.people.com.cn/BIG5/n2/2020/1214/c378439-34471981.html",
+     "人民网云南：示范段开放报道"
+    ]
+   ]
+  },
+  "29": {
+   "num": 29,
+   "title": "红梅文创园工业建筑更新",
+   "sub": "辽宁沈阳 · 2020建成项目记录",
+   "team": "AA architects青木宏＋IIA Atelier佐藤芳子等",
+   "tags": "材料与建筑 × 劳动与维护 × 生活与代际",
+   "facts": "原味精厂建筑经过保留和改用，生产空间成为新的文化活动载体。",
+   "shicha": "工业工序、工人职业生涯与新经营活动处于不同时间结构。",
+   "exhibit": "原生产顺序与现通行路径叠合，加入工人生命史。",
+   "cond": "对读。需要劳动史与使用记录，否则容易退化为一般工业风文创园展示。",
+   "links": [
+    [
+     "https://k.sina.com.cn/article_3914163006_e94d633e02000tnf4.html",
+     "设计团队项目资料（有方稿件转载）"
+    ]
+   ]
+  },
+  "30": {
+   "num": 30,
+   "title": "福田红树林生态公园及持续运营",
+   "sub": "广东深圳 · 2015开放；后续持续运营",
+   "team": "福田区政府建设；红树林基金会MCF运营",
+   "tags": "生态与地域 × 劳动与维护 × 治理与资金 × 生活与代际",
+   "facts": "公园由社会组织参与运营，生态管理和自然教育构成持续性的场所实践。",
+   "shicha": "鸟类迁徙与生境变化跨越年度预算，志愿服务和专业管理具有不同的持续条件。",
+   "exhibit": "年度预算、维护劳动与迁徙季的时间剖面，呈现具体调整。",
+   "cond": "核心。优先以多年记录支撑判断，区分公园范围与相邻保护区，避免混用生态成果。",
+   "links": [
+    [
+     "https://www.mcf.org.cn/topics/list-45.html",
+     "红树林基金会：福田生态公园"
+    ],
+    [
+     "https://wli.wwt.org.uk/zh-hans/?member=%E7%A6%8F%E7%94%B0%E7%BA%A2%E6%A0%91%E6%9E%97%E7%94%9F%E6%80%81%E5%85%AC%E5%9B%AD%E8%87%AA%E7%84%B6%E6%95%99%E8%82%B2%E4%B8%AD%E5%BF%83",
+     "世界湿地网络：福田红树林生态公园自然教育中心"
+    ]
+   ]
+  },
+  "31": {
+   "num": 31,
+   "title": "数字藏经洞",
+   "sub": "甘肃敦煌／线上 · 2023年4月18日上线",
+   "team": "敦煌研究院＋腾讯",
+   "tags": "生活与代际 × 计算与反馈 × 劳动与维护",
+   "facts": "以数字扫描、游戏引擎和互动叙事呈现藏经洞及相关历史。",
+   "shicha": "历史研究长期累积，观众以短时交互进入；软件与设备的可用年限也可能短于保存目标。",
+   "exhibit": "一个可体验的历史场景及其证据—建模—更新剖面。",
+   "cond": "对读。属于互动数字项目，不直接称为头显VR；须与2025中国馆《敦煌共熠》的具体素材区分。",
+   "links": [
+    [
+     "https://www.tencent.com/tencent-facilitates-immersive-virtual-tours-of-important-cultural-sites/",
+     "腾讯：数字藏经洞上线"
+    ]
+   ]
+  },
+  "32": {
+   "num": 32,
+   "title": "圆明园四十景数字化复原及应用",
+   "sub": "北京／数字场景 · 2025成果发布与应用",
+   "team": "圆明园管理处＋中央美术学院相关研究中心",
+   "tags": "生活与代际 × 计算与反馈 × 材料与建筑",
+   "facts": "团队以历史图像、建筑研究和数字建模形成四十景复原成果，并发展展示应用。",
+   "shicha": "遗址保留失落的历史，实时图像却容易呈现一个看似完整、确定的过去。",
+   "exhibit": "同一地点的遗址、史料和数字复原；模型中的推测部分可切换显示。",
+   "cond": "对读。限定央美此项成果，不混称清华等团队更早的圆明园研究；不把数字复原当作实物重建依据。",
+   "links": [
+    [
+     "https://www.cafa.edu.cn/st/2025/90133095.htm",
+     "中央美院：数字复原成果亮相双城展"
+    ],
+    [
+     "https://bj.people.com.cn/n2/2025/1026/c14540-41391115.html",
+     "人民网北京：四十景成果发布"
+    ]
+   ]
+  },
+  "33": {
+   "num": 33,
+   "title": "云冈第12窟可移动3D打印复制窟",
+   "sub": "山西大同／浙江杭州 · 2016采集；2019制作完成；2020展出",
+   "team": "云冈石窟研究院＋浙江大学",
+   "tags": "材料与建筑 × 计算与反馈 × 劳动与维护 × 生活与代际",
+   "facts": "通过扫描与3D打印制成可移动的等比例洞窟复制品。",
+   "shicha": "不可移动遗产的长期保存，与公众跨地域访问、扫描时刻和复制材料寿命相交。",
+   "exhibit": "获授权的局部复制构件与采集—制造—巡展时间剖面。",
+   "cond": "对读。不能把实体复制称为VR，也不能未经尺寸核算就承诺运输整窟。",
+   "links": [
+    [
+     "https://paper.people.com.cn/rmzk/html/2020-07/23/content_1999335.htm",
+     "人民周刊：云冈12窟复制项目"
+    ]
+   ]
+  },
+  "34": {
+   "num": 34,
+   "title": "鼓浪屿黄荣远堂数字测绘与修复协作",
+   "sub": "福建厦门 · 2025公开报道的实践",
+   "team": "厦门大学文化遗产学社／李渊＋遗产管理与修复团队",
+   "tags": "计算与反馈 × 材料与建筑 × 劳动与维护 × 生活与代际",
+   "facts": "学生和修复团队将激光扫描、无人机航测和BIM用于黄荣远堂记录及修复研究。",
+   "shicha": "扫描冻结某一时刻，建筑劣化持续发生；数据也需要后来者维护和理解。",
+   "exhibit": "同一构件的现场状态、扫描与修复决策，标明记录日期及版本。",
+   "cond": "核心。应呈现模型如何影响具体修复，不以“永久数字保存”代替长期维护机制。",
+   "links": [
+    [
+     "https://archt.xmu.edu.cn/info/1013/16274.htm",
+     "厦门大学：黄荣远堂数字化修复实践"
+    ]
+   ]
+  },
+  "35": {
+   "num": 35,
+   "title": "曹斐《永不消逝的电波》The Eternal Wave",
+   "sub": "北京工业空间记忆／VR作品 · 2020作品",
+   "team": "曹斐＋Acute Art；VIVE Arts合作呈现",
+   "tags": "生活与代际 × 计算与反馈 × 材料与建筑",
+   "facts": "VR作品以北京红霞影剧院及电子工业区的经验为基础，发展关于现实与虚构的空间叙事。",
+   "shicha": "工业空间可能改变或消失，个体记忆与虚构仍能形成另一种进入过去的方式。",
+   "exhibit": "原作品VR体验与其场地关系的简明时间剖面。",
+   "cond": "核心。保留艺术作品的独立叙事，不把虚构解释成历史证据；设备与展示权需另行落实。",
+   "links": [
+    [
+     "https://www.vivearts.com/zh-CN/projects/the-eternal-wave",
+     "VIVE Arts：《永不消逝的电波》"
+    ],
+    [
+     "https://ucca.org.cn/en/exhibition/cao-fei/works/",
+     "UCCA：曹斐作品资料"
+    ]
+   ]
+  },
+  "36": {
+   "num": 36,
+   "title": "腾讯贵安七星数据中心一期",
+   "sub": "贵州贵安 · 2018一期试运行；2021有运营说明",
+   "team": "腾讯及设计建设、运维合作方",
+   "tags": "生态与地域 × 计算与反馈 × 材料与建筑 × 劳动与维护",
+   "facts": "工程开挖的山体洞库用于数据设施，运营方说明了利用当地条件组织冷却的做法。",
+   "shicha": "长寿命山体工程容纳更快更替的计算设备，并支持城市连续在线的服务。",
+   "exhibit": "城市—网络—洞库的剖面，叠合设备更换与建筑维护。",
+   "cond": "对读。不是直接占用天然洞穴；节能不能只引用企业宣传，需运行边界与数据。",
+   "links": [
+    [
+     "https://developer.cloud.tencent.com/article/1142352",
+     "腾讯云：贵安七星一期介绍"
+    ],
+    [
+     "https://www.tencent.com/zh-hk/technology-powered-by-electricity-could-ultimately-help-reduce-energy-use/",
+     "腾讯：数据中心能源实践"
+    ]
+   ]
+  },
+  "37": {
+   "num": 37,
+   "title": "海南陵水海底数据中心一期",
+   "sub": "海南陵水海域 · 2023年11月完成一期建设",
+   "team": "海兰信／海兰云及建设运营合作方",
+   "tags": "计算与反馈 × 生态与地域 × 材料与建筑 × 劳动与维护",
+   "facts": "一期海底数据舱建设完成，海水冷却成为数据设施的空间条件。",
+   "shicha": "芯片升级、舱体检修、海洋环境变化与海底工程寿命并不同步。",
+   "exhibit": "海岸—海底舱体剖面与设备升级、维护窗口的对齐。",
+   "cond": "对读。限定一期，不采用计划百舱的预测节能值；生态与全寿命表现仍需实际资料。",
+   "links": [
+    [
+     "https://ecas.cas.cn/xxkw/kbcd/201115_144389/ml/xxhjsyjcss/202312/t20231227_4992971.html",
+     "中国科学院网信工作网：一期完成"
+    ]
+   ]
+  },
+  "38": {
+   "num": 38,
+   "title": "腾讯天津数据中心余热回收供暖",
+   "sub": "天津 · 2021公开记载已实施",
+   "team": "腾讯及热泵／供暖协作团队",
+   "tags": "计算与反馈 × 生态与地域 × 生活与代际 × 劳动与维护",
+   "facts": "通过热泵回收数据中心余热用于供暖，连接计算与建筑环境系统。",
+   "shicha": "计算持续产热，供暖需求却随季节变化；两者负荷不必然匹配。",
+   "exhibit": "一年供热需求与余热供给的双曲线及管网剖面。",
+   "cond": "对读。运营方披露支持项目存在，不能独立证明全年净节能；需实际负荷与受益范围。",
+   "links": [
+    [
+     "https://www.tencent.com/zh-hk/technology-powered-by-electricity-could-ultimately-help-reduce-energy-use/",
+     "腾讯：天津数据中心余热供暖实践"
+    ]
+   ]
+  },
+  "39": {
+   "num": 39,
+   "title": "龙羊峡水光互补光伏项目一期",
+   "sub": "青海海南藏族自治州 · 2013年12月并网试运行",
+   "team": "黄河上游水电开发公司及工程协作团队",
+   "tags": "生态与地域 × 计算与反馈 × 治理与资金 × 材料与建筑",
+   "facts": "一期光伏工程接入既有水电系统，以水光互补组织电力输出。",
+   "shicha": "日照波动、水库调节、河流季节与城市用电需求在不同尺度上相互影响。",
+   "exhibit": "一天与一年两个时间窗口的水光—负荷关系及流域剖面。",
+   "cond": "对读。限定一期，不混用后续扩建容量；供电稳定性不能直接代表全部生态绩效。",
+   "links": [
+    [
+     "https://www.nea.gov.cn/2013-12/06/c_132946613.htm",
+     "国家能源局：龙羊峡一期并网"
+    ]
+   ]
+  },
+  "40": {
+   "num": 40,
+   "title": "数字孪生都江堰：渠首与灌区调度",
+   "sub": "四川成都平原 · 2022—2025持续建设；2026有运行报道",
+   "team": "四川省都江堰水利发展中心及技术／基层水利团队",
+   "tags": "计算与反馈 × 生态与地域 × 劳动与维护 × 生活与代际",
+   "facts": "渠首建模、监测和远程闸门控制进入持续运行；报道记录了调度时间的变化。",
+   "shicha": "快速计算与调度依赖长期水工知识、田间季节、维护劳动和不断变化的来水条件。",
+   "exhibit": "一次实际配水事件，同时展示水情、预测、操作与后续田间反馈。",
+   "cond": "核心。限定已运行系统，区分报道中的局部效率与整个灌区效果；不将数字孪生一概称为AI。",
+   "links": [
+    [
+     "https://www.stdaily.com/web/gdxw/2026-01/05/content_457227.html",
+     "科技日报：都江堰数字孪生运行报道"
+    ]
+   ]
+  }
+ },
+ "adds": {
+  "A01": {
+   "code": "A01",
+   "title": "Shenzhen Women & Children’s Centre / 深圳妇儿大厦改造",
+   "links": [
+    [
+     "https://mvrdv.com/projects/467/shenzhen-women-and-children%27s-centre",
+     "MVRDV project page"
+    ],
+    [
+     "https://www.mvrdv.com/news/4441/pioneering-reuse-china-transformation-shenzhen-women-childrens-centre",
+     "MVRDV completion account"
+    ]
+   ],
+   "prop": "A thirty-year section from shell completion to partial opening, long vacancy, regulatory reassessment, retrofit, and present use. Pair retained concrete volume with the slower institutional creation of women’s and children’s services.",
+   "gate": "Verify current occupancy, public access, energy performance, and user experience independently of the architect’s report. It has already hosted MVRDV’s *ReviveR* exhibition, so avoid reproducing that exhibition’s self-narration.",
+   "tracks": "Material and Building; Lived and Cultural; Governance and Financial; Project and Maintenance",
+   "body": "Adaptive reuse, care infrastructure  \n MVRDV with local partners; 2019–2023  \n Material and Building; Lived and Cultural; Governance and Financial; Project and Maintenance\n\nThe 1994 tower remained largely empty because of defects and fire-safety problems before being transformed into care, cultural, office, hotel, and public programs. The project reportedly retained about 24,000 cubic metres of co"
+  },
+  "A02": {
+   "code": "A02",
+   "title": "Nantou Ancient City regeneration / 南头古城更新",
+   "links": [
+    [
+     "https://www.urbanus.com.cn/writings/coexistence-and-regeneration-in-nantou/",
+     "URBANUS, coexistence and regeneration"
+    ],
+    [
+     "https://www.urbanus.com.cn/curating-in-nantou-short/",
+     "URBANUS, curating in Nantou"
+    ]
+   ],
+   "prop": "Do not exhibit a completed masterplan. Build a versioned map of six interventions, resident/business turnover, event periods, rent and access shifts, and what remained outside the project boundary.",
+   "gate": "High familiarity and prior biennale exposure. It earns a place only through current afterlife evidence, resident accounts, and a critical account of commercialization.",
+   "tracks": "Lived and Cultural; Governance and Financial; Project and Maintenance; Material and Building",
+   "body": "Historic city, urban village, gradual regeneration  \n URBANUS and multiple public/private actors; 2016 onward  \n Lived and Cultural; Governance and Financial; Project and Maintenance; Material and Building\n\nNantou holds a two-thousand-year historical narrative, contemporary village life, festival time, rental economies, and staged regeneration in one site. URBANUS explicitly framed its interventio"
+  },
+  "A03": {
+   "code": "A03",
+   "title": "Jingdezhen Imperial Kiln Museum / 景德镇御窑博物馆",
+   "links": [
+    [
+     "https://www.cafa.edu.cn/st/2021/90121249.htm",
+     "CAFA interview with Zhu Pei"
+    ],
+    [
+     "https://press.moma.org/wp-content/uploads/2021/09/Reuse-Renew-Recycle_-Recent-Architecture-from-China-Expanded-Release_05112022.pdf",
+     "MoMA exhibition release"
+    ]
+   ],
+   "prop": "One brick biography across clay extraction, firing, kiln use, dismantling, incorporation into the museum, weathering, and future repair. Add oral knowledge from kiln workers.",
+   "gate": "The project has already circulated internationally, including MoMA’s *Reuse, Renew, Recycle*. Verify China Pavilion history and use fresh operational/craft evidence rather than the familiar image of brick vaults.",
+   "tracks": "Material and Building; Lived and Cultural; Project and Maintenance",
+   "body": "Material reuse, craft and cultural infrastructure  \n Studio Zhu Pei; completed 2020  \n Material and Building; Lived and Cultural; Project and Maintenance\n\nThe museum uses new brick with brick recovered from kilns that were historically demolished and rebuilt every two or three years to preserve thermal performance. This is a rare case where recurrence is literally material: reuse is tied to a craf"
+  },
+  "A04": {
+   "code": "A04",
+   "title": "*Forest*, Yan Wang Preston / 严望佳《森林》",
+   "links": [
+    [
+     "https://www.yanwangpreston.com/projects/forest-images/story",
+     "Artist’s project account"
+    ]
+   ],
+   "prop": "Revisit a small sample of photographed trees in 2026–27. Pair original images with current survival, maintenance, source-village, and land-value records. The commission turns an existing artwork into a new longitudinal test.",
+   "gate": "Tree locations, present access, image rights, and the ethics of tracing source communities.",
+   "tracks": "Ecological and Territorial; Governance and Financial; Lived and Cultural; Material and Building",
+   "body": "Longitudinal photography and film  \n 2010–2017  \n Ecological and Territorial; Governance and Financial; Lived and Cultural; Material and Building\n\nPreston followed mature trees transplanted into Chongqing and new-town landscapes for eight years. The work exposes the mismatch between an instant visual promise of “forest city” and the biological time, rural extraction, mortality, property value, and"
+  },
+  "A05": {
+   "code": "A05",
+   "title": "Handshake 302 and the Baishizhou archive / 握手302与白石洲档案",
+   "links": [
+    [
+     "https://shenzhennoted.com/wp-content/uploads/2016/06/e68fa1e6898b302e9a9bbe69d91e68b9be58b9f-the-handshake-302-urban-village-artist-residency.pdf",
+     "Handshake 302 residency description"
+    ],
+    [
+     "https://shenzhennoted.com/2013/10/15/czc-manifesto-of-sorts/",
+     "Founding account"
+    ]
+   ],
+   "prop": "A room-scale “lease clock” using one apartment’s changing occupancy, rent, redevelopment milestones, weekly salons, departures, and returns. Let the archive show what official project time leaves out.",
+   "gate": "Current organizational status, residents’ consent, redevelopment-stage verification, and protection against turning displacement into atmosphere.",
+   "tracks": "Lived and Cultural; Governance and Financial; Project and Maintenance; Material and Building",
+   "body": "Participatory art, urban research, inhabited archive  \n 2013 onward  \n Lived and Cultural; Governance and Financial; Project and Maintenance; Material and Building\n\nHandshake 302 began in a 12.5-square-metre apartment in Baishizhou and built a long record of site-specific residencies, public events, and discussion around the urban village. It offers something most renewal cases lack: cultural work"
+  },
+  "A06": {
+   "code": "A06",
+   "title": "*Biotopy*, Wendi Yan / 闫文笛《Biotopy》",
+   "links": [
+    [
+     "https://wendiyan.com/01-biotopy",
+     "Artist’s project page"
+    ]
+   ],
+   "prop": "Run a Venice culture and a China culture under shared display rules, with growth curves, sensor updates, care logs, and game-state changes shown together. The pavilion becomes a six-month experiment rather than a static demonstration.",
+   "gate": "Biological import, lab safety, daily care, backup protocol, authorship of scientific contributions, and what happens when organisms or sensors fail.",
+   "tracks": "Ecological and Territorial; Sensing and Computational; Project and Maintenance",
+   "body": "Live bio-digital installation and game  \n 2024 onward  \n Ecological and Territorial; Sensing and Computational; Project and Maintenance\n\nMicrobial cultures grown in Pioreactors terraform a virtual planet through a game engine. The project makes biological growth and computational real time mutually dependent, and it forces maintenance, contamination, latency, and failure into the visible form of t"
+  },
+  "A07": {
+   "code": "A07",
+   "title": "*Random Access*, He Zike / 何子可《随机存取》",
+   "links": [
+    [
+     "https://aagff.mplus.org.hk/en/stories/avant-garde-now-hidden-spaces/",
+     "M+ festival essay and artist interview"
+    ]
+   ],
+   "prop": "Pair the film with the dossier’s 贵安七星 data-centre section. One side shows verified infrastructure and maintenance cycles; the other shows what secrecy, inaccessibility, and dependence feel like from the city.",
+   "gate": "Screening rights and a disciplined separation of fiction, artist research, and operational fact.",
+   "tracks": "Sensing and Computational; Ecological and Territorial; Lived and Cultural; Governance and Financial",
+   "body": "Film and research on digital infrastructure  \n 2023  \n Sensing and Computational; Ecological and Territorial; Lived and Cultural; Governance and Financial\n\nSet around Guiyang’s largely inaccessible data-centre landscape, the film connects cloud infrastructure, climate, urban transformation, and human memory through a speculative journey after a data-centre crash. It supplies the lived and imaginar"
+  },
+  "A08": {
+   "code": "A08",
+   "title": "Chen Qiulin’s Three Gorges sequence / 陈秋林三峡影像序列",
+   "links": [
+    [
+     "https://www.1000plateaus.org/cn/exhibitions/122-chen-qiulin-heartland/",
+     "A Thousand Plateaus, 2026 retrospective"
+    ],
+    [
+     "https://collection.qagoma.qld.gov.au/objects/6193",
+     "QAGOMA collection record for *The Garden*"
+    ]
+   ],
+   "prop": "Align the three works with river level, demolition, relocation, and the artist’s returns. Use the sequence as a counter-section to official infrastructure time.",
+   "gate": "Rights, exact work selection, sensitivity around displacement, and a clear reason for revisiting older works in a call that prioritizes recent practice. A new 2026–27 return commission would solve the temporal problem.",
+   "tracks": "Lived and Cultural; Ecological and Territorial; Governance and Financial; Material and Building",
+   "body": "Video, photography, installation  \n *Farewell Poem* (2002–07), *River, River* (2005), *The Garden* (2007)  \n Lived and Cultural; Ecological and Territorial; Governance and Financial; Material and Building\n\nAcross successive stages of demolition, inundation, migration, and new construction, Chen’s works refuse the single project date. They make redevelopment legible through memory, artificial flowe"
+  },
+  "A09": {
+   "code": "A09",
+   "title": "Infrastructure of the Ordinary: The Shanzhai Trolley / 日常基础设施：山寨手推车",
+   "links": [
+    [
+     "https://designtrust.hk/grant-recipients/infrastructure-of-the-ordinary-the-shanzhai-trolley/",
+     "Design Trust project page (Seed Grant 2025)"
+    ]
+   ],
+   "prop": "A working trolley prototype carries components between pavilion sections on a daily route. Its movement log becomes a live time section of the exhibition’s own maintenance.",
+   "gate": "It was already shown at the 2025 UABB Huaqiangbei sub-venue. Verify eligibility, develop a genuinely new Venice iteration, and make workers collaborators rather than visual evidence.",
+   "tracks": "Project and Maintenance; Lived and Cultural; Sensing and Computational; Governance and Financial",
+   "body": "Design research, fieldwork, prototype  \n Nicolás Penna and Yanyu Sun; shown 2025–26  \n Project and Maintenance; Lived and Cultural; Sensing and Computational; Governance and Financial\n\nThe project studies the manual labor and low-tech carts that keep Huaqiangbei’s high-tech marketplace moving. It directly challenges the idea that a smart city runs at machine speed by exposing repeated trips, repai"
+  },
+  "B01": {
+   "code": "B01",
+   "title": "Shanghai Expo Village afterlife audit / 上海世博村赛后使用复访",
+   "links": [
+    [
+     "https://www.hpp.com/en/projects/expo-village-shanghai/",
+     "HPP project account"
+    ]
+   ],
+   "prop": "",
+   "gate": "",
+   "tracks": "Material and Building; Lived and Cultural; Governance and Financial; Project and Maintenance",
+   "body": "Designed for Expo 2010 staff and later conversion to ordinary urban uses, the district is a clear test of event time versus neighborhood time. The existing evidence is still designer-led. Invite a 2026–27 post-occupancy commission on conversion, vacancy, tenure, repair, and daily use.\n\n Material and Building; Lived and Cultural; Governance and Financial; Project and Maintenance  \n [HPP project acc"
+  },
+  "B02": {
+   "code": "B02",
+   "title": "Shougang Big Air post-event life / 首钢滑雪大跳台赛后使用",
+   "links": [
+    [
+     "https://english.beijing.gov.cn/forum/citytour/citytourleft/202410/t20241009_3912444.html",
+     "Beijing municipal project page"
+    ],
+    [
+     "https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sportshealth/newsofsportshealth/202506/t20250613_4113195.html",
+     "2025 trial-operation report"
+    ]
+   ],
+   "prop": "",
+   "gate": "",
+   "tracks": "Material and Building; Governance and Financial; Project and Maintenance; Lived and Cultural",
+   "body": "This can test whether a permanent Olympic facility actually acquires daily public life. Recent reuse for competitions, training, commercial events, and a trial extreme-sports program gives a concrete afterlife to study. It is highly familiar and state-promotional sources dominate, so it should enter only through an independent operational audit.\n\n Material and Building; Governance and Financial; P"
+  },
+  "B03": {
+   "code": "B03",
+   "title": "Huangpu River 45 km public-space connection, narrowed to one break / 黄浦江公共空间贯通的一处断点",
+   "links": [
+    [
+     "https://ghzyj.sh.gov.cn/tpxw/20201029/bdb18d2cc3414b6d921a80a2fcfcd7f6.html",
+     "Shanghai planning authority account"
+    ]
+   ],
+   "prop": "",
+   "gate": "",
+   "tracks": "Governance and Financial; Project and Maintenance; Lived and Cultural; Ecological and Territorial",
+   "body": "The 45-kilometre program moved from large development toward public access through phased, site-specific solutions to nearly one hundred breaks. The whole waterfront is too broad. Select one place where a ferry, utility, dock, flood wall, or institutional boundary forced a negotiated section, then document upkeep and access since completion.\n\n Governance and Financial; Project and Maintenance; Liv"
+  },
+  "B04": {
+   "code": "B04",
+   "title": "Huizhen High School / 惠贞高级中学",
+   "links": [
+    [
+     "https://bltawards.com/winner/special/2024/21970/0/",
+     "BLT Awards project record"
+    ]
+   ],
+   "prop": "",
+   "gate": "",
+   "tracks": "Lived and Cultural; Governance and Financial; Material and Building",
+   "body": "The architects explicitly redistribute efficiency: compact teaching spaces release a “floating forest” where students can “waste time” mindfully. This gives the pavilion a counter-clock and a powerful spatial argument about unprogrammed duration. It is a weaker fit with urban renewal and needs student evidence.\n\n Lived and Cultural; Governance and Financial; Material and Building  \n [BLT Awards pr"
+  },
+  "B05": {
+   "code": "B05",
+   "title": "*The Earth Is an Image*, Xin Liu / 刘昕《地表之下 别无他物》",
+   "links": [
+    [
+     "https://www.mplus.org.hk/en/exhibitions/the-earth-is-an-image-by-xin-liu/",
+     "M+ project page"
+    ]
+   ],
+   "prop": "",
+   "gate": "",
+   "tracks": "Sensing and Computational; Material and Building; Lived and Cultural",
+   "body": "An antenna receives signals from retired satellites that still pass over Hong Kong and transmit data decades after obsolescence. It is a precise case of technical afterlife and recurring orbital time. This was already in the earlier art longlist in broader form, so treat it as a specification, not a wholly new lead.\n\n Sensing and Computational; Material and Building; Lived and Cultural  \n [M+ proj"
+  },
+  "B06": {
+   "code": "B06",
+   "title": "*Waiting for a Friend (without Appointment)*, Pak Sheung Chuen / 白双全《等一个没有约的朋友》",
+   "links": [
+    [
+     "https://www.mplus.org.hk/en/magazine/pak-sheung-chuen-measuring-time/",
+     "M+, “Measuring Time”"
+    ]
+   ],
+   "prop": "",
+   "gate": "",
+   "tracks": "Lived and Cultural; Sensing and Computational",
+   "body": "Waiting in public space becomes both method and material. The work gives the pavilion a human-scale counterpoint to planning schedules and predictive systems. It is geographically and institutionally sensitive for a national pavilion, older than the call’s preferred range, and best used as a methodological reference or a new commission rather than a core loan.\n\n Lived and Cultural; Sensing and Com"
+  }
+ }
+}

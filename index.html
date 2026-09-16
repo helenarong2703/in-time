@@ -1,0 +1,881 @@
+<!doctype html><html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>In Time / 时差 — 40 projects in six temporal dimensions</title>
+<style>
+:root{--ink:#1d1a16;--mute:#6b6459;--rule:#e2dccf;--acc:#8a2b1b;--bg:#f6f2ea;--card:#fffdf8}
+*{box-sizing:border-box}body{margin:0;font:15px/1.55 "Noto Serif SC","Songti SC",Georgia,serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:1180px;margin:0 auto;padding:32px 28px 80px}
+.hero h1{font-size:44px;line-height:1.05;margin:0 0 4px;letter-spacing:-.01em}.hero .sub{font-size:20px;color:var(--mute);margin:0 0 18px}
+.hero .dash{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--mute);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:10px 0;margin:14px 0 22px}
+.stmt{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin:10px 0 26px}.stmt h4{margin:0 0 8px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}.stmt p{margin:0 0 10px;font-size:14.5px;text-align:justify}
+.legend{background:var(--card);border:1px solid var(--rule);padding:16px 20px;margin:0 0 26px;font-size:14px}.legend b{color:var(--acc)}
+nav.themes{position:sticky;top:0;background:var(--bg);z-index:5;display:flex;gap:6px;flex-wrap:wrap;padding:10px 0;border-bottom:1px solid var(--rule);margin-bottom:28px}
+nav.themes a{text-decoration:none;color:var(--ink);border:1px solid var(--rule);padding:5px 10px;border-radius:999px;font-size:13px;background:var(--card)}nav.themes a small{color:var(--mute);margin-left:4px}
+section.theme{margin:0 0 44px}section.theme header{display:flex;align-items:baseline;gap:14px;border-bottom:2px solid var(--ink);margin-bottom:16px}section.theme h2{font-size:28px;margin:0}section.theme h2 .cn{color:var(--acc)}.count{color:var(--mute);font-size:13px}
+.card{display:grid;grid-template-columns:300px 1fr;gap:20px;background:var(--card);border:1px solid var(--rule);margin:0 0 14px;padding:16px}
+.media img{width:100%;height:210px;object-fit:cover;display:block;background:#eee}.credit{font-size:10.5px;color:var(--mute);margin-top:4px}
+.ph{height:210px;border:1px dashed #c9c1b2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;color:var(--mute);font-size:12px;text-align:center;background:repeating-linear-gradient(45deg,#f3eee4 0 8px,#faf7f1 8px 16px)}.phnum{font-size:26px;font-weight:700;color:#b9b0a0}
+.kicker{display:flex;gap:10px;align-items:center;font-size:12px;color:var(--mute)}.num{font-weight:700;color:var(--acc);font-size:13px}.status{border:1px solid var(--rule);padding:1px 8px;border-radius:999px}
+h3{margin:4px 0 2px;font-size:20px;line-height:1.25}.en{font-size:14px;color:#3c372f;margin-bottom:2px}.meta{font-size:12.5px;color:var(--mute);margin-bottom:10px}
+.row{display:grid;grid-template-columns:150px 1fr;gap:14px}.prof{text-align:center}.proflab{font-size:11px;color:var(--mute);line-height:1.35;margin-top:2px}
+.txt p{margin:0 0 7px;font-size:13.5px}.oot{color:var(--acc)}.gate{color:#5c4a1e}.call{background:#fbf1e6;border-left:3px solid var(--acc);padding:6px 10px}.pair{background:#eef2ee;padding:6px 10px;font-size:13px;margin:6px 0}
+.links a{margin-right:12px;font-size:13px;color:#2c4a7a}.muted{color:var(--mute)}
+.appendix{border-top:2px solid var(--ink);padding-top:18px;margin-top:40px;font-size:14px}.appendix h2{font-size:22px}.appendix li{margin:0 0 6px}
+@media(max-width:820px){.card{grid-template-columns:1fr}.stmt{grid-template-columns:1fr}.row{grid-template-columns:1fr}}
+@media print{nav.themes{position:static}.card{break-inside:avoid}}
+</style></head><body><div class="wrap">
+<header class="hero">
+  <h1>In Time <span style="color:var(--acc)">/ 时差</span></h1>
+  <p class="sub">Re-timing the Existing City · 重校既有城市的时间 — 40 projects across six temporal dimensions</p>
+  <div class="dash"><span>Venice Biennale 2027 · China Pavilion proposal</span><span>selection pool v1 · Jane · 2026-09-16</span><span>33/40 images sourced</span><span>status: working document — nothing here is confirmed, invited, or cleared</span></div>
+  <div class="stmt"><div><h4>Curatorial statement</h4><p>Every act of urban renewal sets a clock. A demolition order, a lease, a handover date, a monitoring interval: each decides how long a building may stand, how long a resident must wait, how often a system looks again, and when a place is declared finished. Materials, ecologies, lives, labor, budgets, and computation all run at their own rates, and renewal forces them into a single schedule. The differences that result are not abstract. They decide who can remain, who must wait, what receives care, what becomes urgent, and what becomes obsolete. In Time / 时差 asks who sets the clock of urban change — and what architecture and artificial intelligence can re-time.</p><p>“万物并作，吾以观复。” Read as an invitation to watch things emerging together and to know them by their returns, the line from the *Tao Te Ching* introduces the city as a convergence of processes that recur: seasons, repairs, leases, generations, updates. 复 here is not decorative cyclicality. It is recurrence and consequence — what comes back after a project is declared complete, and what must be maintained for anything to last.</p><p>Situated in Chinese urban renewal, the exhibition treats architecture and AI as temporal operators. Architecture redistributes duration through space: it decides what endures, what is interrupted, and what can adapt — extending a structure’s useful life, slowing a disruptive change, accelerating an urgent repair, holding open a recovery. AI redistributes attention and urgency: by determining what is sensed and how often, how far ahead a model predicts, at what threshold a deviation triggers action, and when a model is updated or retired, computational systems help set the pace of transformation. Their apparent speed rests on slower infrastructures of energy, material, and labor, and their predictions meet consequences that arrive later — through weathering, ecological response, and human use. Both can widen the temporal possibilities of a place. Both can also compress its many times into one metric, one schedule, one forecast. The question is how that power is governed.</p><p>Each contribution takes the form of a time section. As an architectural section reveals relations across space, a time section aligns the processes that constitute a place with those that organize its change. Six timelines form its legend — Material, Ecological, Cultural, Maintenance, Financial, Technological — three that make a place and three that remake it. Every case begins from one hinge event, foregrounds the two to four timelines that explain it, and answers the same four questions: what changed, who waited, who maintained it, and what remains unresolved. The catalogue files each project under the timeline it was commissioned to serve; the timeline it fails to keep pace with is its 时差.</p><p>The pool reveals its own finding. Architects are commissioned to deliver material and cultural outcomes; almost no one is commissioned to maintain or to fund a place past handover. Maintenance and Financial are the thinnest categories in Chinese renewal not because they matter least but because they are rarely made visible. The exhibition makes them visible — through commissioned afterlife audits, workers’ and residents’ records, and an art layer that keeps time changing across the six months of the pavilion.</p><p>Together the cases present the existing city as unfinished: already made, still changing, and available for careful re-timing — 校时 — so that what remains useful can remain, what needs care receives it, what demands change is changed in time, and the power to decide is held in common.</p></div><div><h4>策展陈述（草稿）</h4><p>每一次城市更新都在设定一台时钟。一纸拆除令、一份租约、一个交付日期、一个监测周期，分别决定着一栋建筑还能立多久、一位居民还要等多久、一个系统多久回看一次、一个地方何时被宣布&quot;完成&quot;。材料、生态、生命、劳动、资金与计算各自以不同的速率运行，而更新迫使它们进入同一张日程表。由此产生的差异并不抽象：它们决定谁能留下、谁必须等待、什么得到照护、什么变得紧迫、什么被宣告过时。《在时之中 / 时差》追问：谁在设定城市变化的时钟？建筑与人工智能又能重校什么？</p><p>&quot;万物并作，吾以观复。&quot;若把这句《道德经》读作一种邀请——去观看万物并起，并从其往复中认识它们——那么城市便呈现为诸多循环过程的汇聚：季节、修缮、租期、世代、更新。这里的&quot;复&quot;不是装饰性的循环意象，而是复归与后果：项目被宣告完成之后仍会回来的东西，以及任何事物若要长久便必须持续维护的部分。</p><p>展览立足中国城市更新，把建筑与人工智能视为时间的操作者。建筑通过空间重新分配时长：它决定什么得以延续、什么被打断、什么能够调适——延长结构的使用寿命、放缓破坏性的变化、加快紧迫的修缮、为恢复留出时间。人工智能重新分配注意力与紧迫感：通过决定感知什么、多久感知一次、模型预测多远、偏差达到何种阈值触发行动、模型何时更新或退役，计算系统参与设定着城市转型的节奏。它们表面的速度依托于能源、材料与劳动等更慢的基础设施，它们的预测也会遭遇之后才显现的后果——风化、生态回应与人的使用。二者都能拓宽一个地方的时间可能性，也都可能把它的多重时间压缩为一个指标、一张日程、一次预测。问题在于这种权力如何被治理。</p><p>每一件参展作品都以时间剖面的形式呈现。正如建筑剖面揭示空间中的关系，时间剖面把构成一个地方的过程与组织其变化的过程对齐。六条时间线构成其图例——材料、生态、文化、维护、资金、技术——三条造就地方，三条重塑地方。每个案例从一个枢纽事件出发，突出最能解释它的两到四条时间线，并回答同样四个问题：什么改变了？谁在等待？谁在维护？什么悬而未决？图录按每个项目受委托服务的那条时间线归档；它未能跟上的那条时间线，即是它的时差。</p><p>这个项目池揭示了它自己的发现：建筑师受托交付材料与文化的成果，却几乎无人受托在交付之后去维护、去持续出资。维护与资金是中国城市更新中最薄弱的两类，并非因为它们最不重要，而是因为它们最少被看见。展览让它们被看见——通过委托的&quot;后续使用审计&quot;、工人与居民的记录，以及一个在展馆六个月中持续让时间发生变化的艺术层。</p><p>这些案例共同呈现一座未完成的既有城市：已然建成，仍在变化，并可被审慎地重校——校时——让仍然有用的得以留存，让需要照护的得到照护，让必须改变的及时改变，并让决定的权力被共同持有。</p></div></div>
+  <div class="legend"><b>How to read each card.</b> Every project holds all six temporal dimensions — <b>材料 Material · 生态 Ecological · 文化 Cultural · 维护 Maintenance · 资金 Financial · 技术 Technological</b> — in different proportions. The hexagonal <em>time-section profile</em> shows them bulging to different degrees (3 = the dimension the project was commissioned to serve, its filing category; 2 = dimensions it foregrounds; 1 = present but latent). <b>“Out of time with”</b> names the dimension it fails to keep pace with: that gap is the project's 时差. Cards marked <em>Curatorial call</em> are my selection judgments for Helena to keep or flip; <em>Gate</em> lines are the verification conditions before any invitation.</div>
+</header>
+<nav class="themes"><a href="#material">材料 Material <small>6</small></a><a href="#ecological">生态 Ecological <small>6</small></a><a href="#cultural">文化 Cultural <small>7</small></a><a href="#maintenance">维护 Maintenance <small>7</small></a><a href="#financial">资金 Financial <small>7</small></a><a href="#technological">技术 Technological <small>7</small></a></nav>
+<section class="theme" id="material"><header><h2><span class="cn">材料</span> Material</h2><p class="count">6 projects</p></header>
+<article class="card" id="p-1">
+  <div class="media"><img src="in-time-assets/1.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">1</span><span class="status">core</span></div>
+    <h3>尤家凹居住社区中心</h3>
+    <div class="en">Youjiawa Residential Community Centre (former compressor factory), Nanjing</div>
+    <div class="meta">江苏南京 · 2023建成 · 东南大学建筑学院UAG工作室</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,14.0 73.3,52.3 86.6,75.3 60.0,90.7 46.7,67.7 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Material</b><br><span class="muted">also bulging: Cultural · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Production ended; the structure, workers&#x27; memory and aging residents continue.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>工业生产已经结束，结构、工人记忆和周边居民的日常需要仍在延续。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>旧网架节点与新增空间剖面，配合原职工和现使用者的时间记录。</p>
+        <p class='gate'><b>Gate:</b> 核心。需实际开放时段、使用者反馈与维护记录；不能把设计功能表当作运营实绩。</p>
+        
+        
+        <p class="links"><a href="https://www.gooood.cn/conservation-and-renovation-of-nanjing-compressor-factory-youjiawa-residential-community-center-by-seu-arch-uag.htm" target="_blank" rel="noopener">UAG供稿：尤家凹社区中心</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-13">
+  <div class="media"><img src="in-time-assets/13.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">13</span><span class="status">reserve</span></div>
+    <h3>小河公园</h3>
+    <div class="en">Xiaohe Park (oil depot to park), Hangzhou</div>
+    <div class="meta">浙江杭州 · 2023年4月完成（事务所记录） · 隈研吾建筑都市设计事务所及合作团队</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,14.0 86.6,44.7 73.3,67.7 60.0,90.7 46.7,67.7 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Material</b><br><span class="muted">also bulging: Ecological · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Industrial exit has a date; soil remediation and ecology do not — greenery photos prove nothing.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>工业退场可以有明确日期，场地生态变化和设施维护却持续发生。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>油库—公园的地上地下剖面及不同时间的使用记录。</p>
+        <p class='gate'><b>Gate:</b> 对读。须有环境修复记录，不能用绿化照片推断污染已经消除。</p>
+        
+        
+        <p class="links"><a href="https://kkaa.co.jp/jp/project/hangzhou-xiaohe-park/" target="_blank" rel="noopener">隈研吾事务所：Hangzhou Xiaohe Park</a><a href="https://www.gooood.cn/hangzhou-xiaohe-park-by-kengo-kuma-and-associates.htm" target="_blank" rel="noopener">项目供稿：小河公园</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-A01">
+  <div class="media"><img src="in-time-assets/A01.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">A01</span><span class="status">priority add</span></div>
+    <h3>Shenzhen Women &amp; Children’s Centre / 深圳妇儿大厦改造</h3>
+    <div class="en">Shenzhen Women & Children's Centre — MVRDV retrofit</div>
+    <div class="meta">Material and Building; Lived and Cultural; Governance and Financial; Project and Maintenance</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,14.0 73.3,52.3 86.6,75.3 60.0,90.7 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Material</b><br><span class="muted">also bulging: Cultural · Financial · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> 24,000 m³ of concrete retained in a year; care institutions take decades to form; a 30-year vacancy.</p>
+        
+        <p class='ex'><b>拟议展品 / proposition：</b>A thirty-year section from shell completion to partial opening, long vacancy, regulatory reassessment, retrofit, and present use. Pair retained concrete volume with the slower institutional creation of women’s and children’s services.</p>
+        <p class='gate'><b>Gate:</b> Verify current occupancy, public access, energy performance, and user experience independently of the architect’s report. It has already hosted MVRDV’s *ReviveR* exhibition, so avoid reproducing that exhibition’s self-narration.</p>
+        
+        
+        <p class="links"><a href="https://mvrdv.com/projects/467/shenzhen-women-and-children%27s-centre" target="_blank" rel="noopener">MVRDV project page</a><a href="https://www.mvrdv.com/news/4441/pioneering-reuse-china-transformation-shenzhen-women-childrens-centre" target="_blank" rel="noopener">MVRDV completion account</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-A03">
+  <div class="media"><img src="in-time-assets/A03.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">A03</span><span class="status">priority add</span></div>
+    <h3>Jingdezhen Imperial Kiln Museum / 景德镇御窑博物馆</h3>
+    <div class="en">Jingdezhen Imperial Kiln Museum — Studio Zhu Pei</div>
+    <div class="meta">Material and Building; Lived and Cultural; Project and Maintenance</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,14.0 73.3,52.3 86.6,75.3 60.0,90.7 46.7,67.7 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Material</b><br><span class="muted">also bulging: Cultural · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Brick reuse tied to a 2–3-year kiln cycle; the museum expects permanence.</p>
+        
+        <p class='ex'><b>拟议展品 / proposition：</b>One brick biography across clay extraction, firing, kiln use, dismantling, incorporation into the museum, weathering, and future repair. Add oral knowledge from kiln workers.</p>
+        <p class='gate'><b>Gate:</b> The project has already circulated internationally, including MoMA’s *Reuse, Renew, Recycle*. Verify China Pavilion history and use fresh operational/craft evidence rather than the familiar image of brick vaults.</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Prior international exposure (MoMA) — needs fresh craft/operational evidence.</p>
+        
+        <p class="links"><a href="https://www.cafa.edu.cn/st/2021/90121249.htm" target="_blank" rel="noopener">CAFA interview with Zhu Pei</a><a href="https://press.moma.org/wp-content/uploads/2021/09/Reuse-Renew-Recycle_-Recent-Architecture-from-China-Expanded-Release_05112022.pdf" target="_blank" rel="noopener">MoMA exhibition release</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-12">
+  <div class="media"><img src="in-time-assets/12.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">12</span><span class="status">background</span></div>
+    <h3>先锋会泽白雾书局</h3>
+    <div class="en">Xianfeng Baiwu Bookstore (granary), Huize</div>
+    <div class="meta">云南曲靖会泽 · 2024设计；2025年4月完成施工 · 家琨建筑＋先锋书店；会泽铜都文旅</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,14.0 73.3,52.3 86.6,75.3 60.0,90.7 46.7,67.7 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Material</b><br><span class="muted">also bulging: Cultural · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Wall, roof truss and original use have three different end dates.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>墙体、屋架和原用途具有不同的终止时间，物质留存与历史意义变化并不同步。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>旧墙—新结构的实体节点及粮仓功能、地方记忆和经营的时间剖面。</p>
+        <p class='gate'><b>Gate:</b> 对读。保留原物不等于保持原貌；需讨论墙面涂饰、材料老化和居民可及性。</p>
+        
+        
+        <p class="links"><a href="https://www.archiposition.com/items/dc167c1988" target="_blank" rel="noopener">家琨建筑供稿：先锋会泽白雾书局</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-15">
+  <div class="media"><img src="in-time-assets/15.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">15</span><span class="status">background</span></div>
+    <h3>马尾船厂片区保护建设一期</h3>
+    <div class="en">Mawei Shipyard Phase 1, Fuzhou</div>
+    <div class="meta">福建福州 · 2023建成 · 北京华清安地＋福建省建筑设计研究院等</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,14.0 73.3,52.3 86.6,75.3 60.0,90.7 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Material</b><br><span class="muted">also bulging: Maintenance · Cultural · Financial</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Production stops fast; protection listing is slower; labor memory fades slowest.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>生产停止、保护立项和劳动记忆的消退具有不同速度。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>跨年代厂房剖面与工序、工人经历和保护措施的对齐。</p>
+        <p class='gate'><b>Gate:</b> 对读。应保留生产史的复杂性，避免只展示修复后的统一风貌。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Top-up: the clearest labor-memory clock in the Material column.</p>
+        
+        <p class="links"><a href="https://www.gooood.cn/fuzhou-arsenal-chuanzheng-culture-mawei-shipyard-areas-conservation-and-constructionphase-i-by-beijing-huaqing-andi-architectural-design-co-ltd-fujian-provincial-institute-of-ar.htm" target="_blank" rel="noopener">设计团队供稿：马尾船厂一期</a></p>
+      </div>
+    </div>
+  </div>
+</article></section><section class="theme" id="ecological"><header><h2><span class="cn">生态</span> Ecological</h2><p class="count">6 projects</p></header>
+<article class="card" id="p-30">
+  <div class="media"><img src="in-time-assets/30.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">30</span><span class="status">core</span></div>
+    <h3>福田红树林生态公园及持续运营</h3>
+    <div class="en">Futian Mangrove Ecological Park — continuous operation, Shenzhen</div>
+    <div class="meta">广东深圳 · 2015开放；后续持续运营 · 福田区政府建设；红树林基金会MCF运营</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 99.8,37.0 86.6,75.3 60.0,90.7 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Ecological</b><br><span class="muted">also bulging: Maintenance · Financial · Cultural</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Migration and habitat cross annual budgets; volunteer vs professional continuity.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>鸟类迁徙与生境变化跨越年度预算，志愿服务和专业管理具有不同的持续条件。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>年度预算、维护劳动与迁徙季的时间剖面，呈现具体调整。</p>
+        <p class='gate'><b>Gate:</b> 核心。优先以多年记录支撑判断，区分公园范围与相邻保护区，避免混用生态成果。</p>
+        
+        
+        <p class="links"><a href="https://www.mcf.org.cn/topics/list-45.html" target="_blank" rel="noopener">红树林基金会：福田生态公园</a><a href="https://wli.wwt.org.uk/zh-hans/?member=%E7%A6%8F%E7%94%B0%E7%BA%A2%E6%A0%91%E6%9E%97%E7%94%9F%E6%80%81%E5%85%AC%E5%9B%AD%E8%87%AA%E7%84%B6%E6%95%99%E8%82%B2%E4%B8%AD%E5%BF%83" target="_blank" rel="noopener">世界湿地网络：福田红树林生态公园自然教育中心</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-20">
+  <div class="media"><img src="in-time-assets/20.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">20</span><span class="status">reserve</span></div>
+    <h3>鱼尾洲公园</h3>
+    <div class="en">Yuweizhou Park, Nanchang — Turenscape</div>
+    <div class="meta">江西南昌 · 2021建成 · 土人设计</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 99.8,37.0 73.3,67.7 60.0,90.7 46.7,67.7 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Ecological</b><br><span class="muted">also bulging: Material · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Opening is an event; water level, succession and recovery are cycles.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>开园是一个事件，水位、植被演替和场地恢复则有周期与不确定性。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>同一断面在不同水位下的变化，并与多年植被记录连接。</p>
+        <p class='gate'><b>Gate:</b> 对读。生态效果需连续记录支持，不将设计目标直接写成恢复结果。</p>
+        
+        
+        <p class="links"><a href="https://www.turenscape.com/project/detail/4828.html" target="_blank" rel="noopener">土人设计：鱼尾洲项目</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-19">
+  <div class="media"><img src="in-time-assets/19.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">19</span><span class="status">reserve</span></div>
+    <h3>宝山垃圾焚烧发电中心建筑与景观</h3>
+    <div class="en">Baoshan Waste-to-Energy Centre, Shanghai</div>
+    <div class="meta">上海宝山 · 2025建筑与景观完成 · BAM承担建筑与景观；能源工程及运营另有专业团队</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 99.8,37.0 73.3,67.7 60.0,90.7 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Ecological</b><br><span class="muted">also bulging: Material · Maintenance · Financial</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Waste arrives daily; the facility is fixed for decades; reduction targets shift.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>每天不断产生的城市废物，要由长期固定设施处理；处理需求与资源减量目标也可能变化。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>每日物质流与多年设施维护叠合，包含灰渣等后续过程。</p>
+        <p class='gate'><b>Gate:</b> 对读。不能仅依据建筑团队宣传判断净减碳或环保绩效；BAM不是全部工程的作者。</p>
+        
+        
+        <p class="links"><a href="https://www.gooood.cn/baoshan-waste-to-energy-center-by-ballistic-architecture-machine-bam.htm" target="_blank" rel="noopener">BAM供稿：宝山垃圾焚烧发电中心</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-28">
+  <div class="media"><div class="ph"><span class="phnum">28</span><span>image pending<br><small>source hotlink-blocked or none found —<br>drop a file at in-time-assets/28.jpg</small></span></div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">28</span><span class="status">reserve</span></div>
+    <h3>洱海生态廊道阳南溪—才村示范段</h3>
+    <div class="en">Erhai Lake Ecological Corridor — demonstration section, Dali</div>
+    <div class="meta">云南大理 · 2020开放的约12公里示范段 · 大理地方政府、苍洱投资及多专业设计建设团队</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 99.8,37.0 86.6,75.3 60.0,90.7 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Ecological</b><br><span class="muted">also bulging: Cultural · Financial · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Shoreline project cycle vs lake recovery and residents&#x27; lives.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>岸线改造的项目周期，与湖泊恢复及周边居民生活变化所需的时间不同。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>同一湖岸的水位、通行和生活变化剖面。</p>
+        <p class='gate'><b>Gate:</b> 对读。不要将全线规模、迁居人数或绩效套到这一示范段；需呈现居民实际经历。</p>
+        
+        
+        <p class="links"><a href="https://yn.people.com.cn/BIG5/n2/2020/1214/c378439-34471981.html" target="_blank" rel="noopener">人民网云南：示范段开放报道</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-A04">
+  <div class="media"><div class="ph"><span class="phnum">A04</span><span>image pending<br><small>source hotlink-blocked or none found —<br>drop a file at in-time-assets/A04.jpg</small></span></div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">A04</span><span class="status">priority add</span></div>
+    <h3>*Forest*, Yan Wang Preston / 严望佳《森林》</h3>
+    <div class="en">Yan Wang Preston, <i>Forest</i> (2010–17) — longitudinal photography</div>
+    <div class="meta">Ecological and Territorial; Governance and Financial; Lived and Cultural; Material and Building</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 99.8,37.0 86.6,75.3 60.0,75.3 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Ecological</b><br><span class="muted">also bulging: Financial · Cultural · Material</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Instant &#x27;forest city&#x27; image vs transplanted-tree biology, mortality and source villages.</p>
+        
+        <p class='ex'><b>拟议展品 / proposition：</b>Revisit a small sample of photographed trees in 2026–27. Pair original images with current survival, maintenance, source-village, and land-value records. The commission turns an existing artwork into a new longitudinal test.</p>
+        <p class='gate'><b>Gate:</b> Tree locations, present access, image rights, and the ethics of tracing source communities.</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Proposed 2026–27 revisit commission turns the artwork into a longitudinal test.</p>
+        
+        <p class="links"><a href="https://www.yanwangpreston.com/projects/forest-images/story" target="_blank" rel="noopener">Artist’s project account</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-21">
+  <div class="media"><img src="in-time-assets/21.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">21</span><span class="status">background</span></div>
+    <h3>美舍河凤翔湿地公园</h3>
+    <div class="en">Meishe River Fengxiang Wetland Park, Haikou</div>
+    <div class="meta">海南海口 · 2017建成开放 · 土人设计及河道治理、建设运营团队</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 99.8,37.0 73.3,67.7 60.0,90.7 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Ecological</b><br><span class="muted">also bulging: Financial · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Works finish fast; water quality and sewage governance are long.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>短期工程推进必须接续长期水质改善、污水管理和湿地维护。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>工程节点、枯丰水季与连续水质记录组成的流域剖面。</p>
+        <p class='gate'><b>Gate:</b> 对读。水质改善不能全部归因于景观设计；需明确截污等工程的作用。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Top-up: the governance-time case in the Ecological column.</p>
+        
+        <p class="links"><a href="https://www.turenscape.com/project/detail/4772.html" target="_blank" rel="noopener">土人设计：美舍河凤翔湿地</a><a href="https://news.cnr.cn/native/gd/20180413/t20180413_524197488.shtml" target="_blank" rel="noopener">央广网：美舍河治理报道</a></p>
+      </div>
+    </div>
+  </div>
+</article></section><section class="theme" id="cultural"><header><h2><span class="cn">文化</span> Cultural</h2><p class="count">7 projects</p></header>
+<article class="card" id="p-4">
+  <div class="media"><img src="in-time-assets/4.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">4</span><span class="status">core</span></div>
+    <h3>彭一小区原拆原建：已交付住宅</h3>
+    <div class="en">Pengyi Estate — demolish and rebuild in place, Shanghai</div>
+    <div class="meta">上海静安 · 2021开工；2025年6月启动回搬 · 静安区、彭浦新村街道、上海市房屋建筑设计院及建设团队</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 99.8,83.0 60.0,90.7 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Cultural</b><br><span class="muted">also bulging: Financial · Material · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Years of transition housing consume a finite old age; return does not restore the neighborhood.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>数年的过渡居住，占据老年人有限生命的一部分；原址返回也不自动恢复原有邻里关系。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>匿名家庭生命线与拆建、过渡、回搬时间对齐；并列不同户型迭代。</p>
+        <p class='gate'><b>Gate:</b> 核心对照。需说明拆除必要性、过渡生活和实际回搬体验；不将报道时尚未完成的配套综合体计为建成。</p>
+        
+        
+        <p class="links"><a href="https://www.shanghai.gov.cn/nw4411/20250629/122d68440df64622856c021d406fbbc7.html" target="_blank" rel="noopener">上海市政府：彭一小区回搬</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-3">
+  <div class="media"><img src="in-time-assets/3.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">3</span><span class="status">core</span></div>
+    <h3>退休房／退休宅</h3>
+    <div class="en">The Retirement Home — a two-elder apartment retrofit, Beijing</div>
+    <div class="meta">北京海淀 · 2025已有建成报道；文内年代标注不一 · 七巧天工设计：王冰洁、郑昊鸿</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 99.8,83.0 60.0,90.7 46.7,67.7 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Cultural</b><br><span class="muted">also bulging: Material · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Bodily capacity changes yearly; room allocation is fixed for decades.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>家庭人口与身体能力持续变化，住宅的原始房间分配却长期固定；子女与父母的改善愿望也可能不同。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>两代人的平面标注与一天活动记录，展示改造协商中的具体选择。</p>
+        <p class='gate'><b>Gate:</b> 核心。优先取得老人自己的评价。来源标题区写2024，项目表写2025年2月，故不强行给出单一竣工日。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Consent-sensitive: resident-led account required or use as reserve.</p>
+        
+        <p class="links"><a href="https://lingganlb.com/index/index/detail.html?code=A8404517286156063145" target="_blank" rel="noopener">七巧天工项目资料：退休房</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-6">
+  <div class="media"><img src="in-time-assets/6.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">6</span><span class="status">core</span></div>
+    <h3>西安老菜场市井文化街区一期</h3>
+    <div class="en">Xi'an Old Vegetable Market Phase 1</div>
+    <div class="meta">陕西西安 · 2020年5月建成 · 行止计画 BoundsPlan及运营合作方</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 99.8,83.0 60.0,90.7 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Cultural</b><br><span class="muted">also bulging: Material · Financial · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Daily trade depends on stable stalls; renovation and rent follow another cycle.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>每日经营依赖稳定的路径与租用条件，新消费和改造投入则按另一套周期组织。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>摊位日历、分期剖面和租用变化的并置。</p>
+        <p class='gate'><b>Gate:</b> 核心。保留市场外观不足以证明原商户持续受益，需核实商户更替、费用与经营时段。</p>
+        
+        
+        <p class="links"><a href="https://www.archiposition.com/items/20210727020213" target="_blank" rel="noopener">设计团队供稿：西安老菜场一期</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-A05">
+  <div class="media"><div class="ph"><span class="phnum">A05</span><span>image pending<br><small>source hotlink-blocked or none found —<br>drop a file at in-time-assets/A05.jpg</small></span></div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">A05</span><span class="status">priority add</span></div>
+    <h3>Handshake 302 and the Baishizhou archive / 握手302与白石洲档案</h3>
+    <div class="en">Handshake 302 and the Baishizhou archive, Shenzhen</div>
+    <div class="meta">Lived and Cultural; Governance and Financial; Project and Maintenance; Material and Building</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 99.8,83.0 60.0,90.7 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Cultural</b><br><span class="muted">also bulging: Financial · Maintenance · Material</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> A lease clock inside the waiting period before redevelopment.</p>
+        
+        <p class='ex'><b>拟议展品 / proposition：</b>A room-scale “lease clock” using one apartment’s changing occupancy, rent, redevelopment milestones, weekly salons, departures, and returns. Let the archive show what official project time leaves out.</p>
+        <p class='gate'><b>Gate:</b> Current organizational status, residents’ consent, redevelopment-stage verification, and protection against turning displacement into atmosphere.</p>
+        
+        
+        <p class="links"><a href="https://shenzhennoted.com/wp-content/uploads/2016/06/e68fa1e6898b302e9a9bbe69d91e68b9be58b9f-the-handshake-302-urban-village-artist-residency.pdf" target="_blank" rel="noopener">Handshake 302 residency description</a><a href="https://shenzhennoted.com/2013/10/15/czc-manifesto-of-sorts/" target="_blank" rel="noopener">Founding account</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-35">
+  <div class="media"><img src="in-time-assets/35.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">35</span><span class="status">core</span></div>
+    <h3>曹斐《永不消逝的电波》The Eternal Wave</h3>
+    <div class="en">Cao Fei, <i>The Eternal Wave</i> (VR)</div>
+    <div class="meta">北京工业空间记忆／VR作品 · 2020作品 · 曹斐＋Acute Art；VIVE Arts合作呈现</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 99.8,83.0 60.0,75.3 46.7,67.7 33.4,44.7" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Cultural</b><br><span class="muted">also bulging: Technological · Material</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Industrial space disappears; memory and fiction persist non-linearly.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>工业空间可能改变或消失，个体记忆与虚构仍能形成另一种进入过去的方式。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>原作品VR体验与其场地关系的简明时间剖面。</p>
+        <p class='gate'><b>Gate:</b> 核心。保留艺术作品的独立叙事，不把虚构解释成历史证据；设备与展示权需另行落实。</p>
+        
+        
+        <p class="links"><a href="https://www.vivearts.com/zh-CN/projects/the-eternal-wave" target="_blank" rel="noopener">VIVE Arts：《永不消逝的电波》</a><a href="https://ucca.org.cn/en/exhibition/cao-fei/works/" target="_blank" rel="noopener">UCCA：曹斐作品资料</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-A08">
+  <div class="media"><img src="in-time-assets/A08.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">A08</span><span class="status">priority add</span></div>
+    <h3>Chen Qiulin’s Three Gorges sequence / 陈秋林三峡影像序列</h3>
+    <div class="en">Chen Qiulin — Three Gorges sequence (2002–07)</div>
+    <div class="meta">Lived and Cultural; Ecological and Territorial; Governance and Financial; Material and Building</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 86.6,44.7 99.8,83.0 60.0,75.3 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Cultural</b><br><span class="muted">also bulging: Ecological · Financial</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> River level and demolition vs the finite lifetimes of the displaced.</p>
+        
+        <p class='ex'><b>拟议展品 / proposition：</b>Align the three works with river level, demolition, relocation, and the artist’s returns. Use the sequence as a counter-section to official infrastructure time.</p>
+        <p class='gate'><b>Gate:</b> Rights, exact work selection, sensitivity around displacement, and a clear reason for revisiting older works in a call that prioritizes recent practice. A new 2026–27 return commission would solve the temporal problem.</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Older than the call's preferred range — a 2026–27 return commission solves the eligibility problem.</p>
+        
+        <p class="links"><a href="https://www.1000plateaus.org/cn/exhibitions/122-chen-qiulin-heartland/" target="_blank" rel="noopener">A Thousand Plateaus, 2026 retrospective</a><a href="https://collection.qagoma.qld.gov.au/objects/6193" target="_blank" rel="noopener">QAGOMA collection record for *The Garden*</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-5">
+  <div class="media"><img src="in-time-assets/5.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">5</span><span class="status">reserve</span></div>
+    <h3>福田中学改扩建</h3>
+    <div class="en">Futian High School, Shenzhen</div>
+    <div class="meta">广东深圳 · 2023建成 · reMIX临界工作室＋华阳国际</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 99.8,83.0 60.0,75.3 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Cultural</b><br><span class="muted">also bulging: Material · Financial</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> A student stays three years; campus and demography move in decades.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>每届学生仅在校数年，校园建设与城市人口变化却跨越更长周期；教学和社区活动具有不同时间表。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>一周设施时刻表与校园剖面叠合，展示开放与管理界面。</p>
+        <p class='gate'><b>Gate:</b> 对读。社区共享须核实运营规则，不能仅凭设计意图声称已经长期开放。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Top-up: the generational clock in the Cultural column.</p>
+        
+        <p class="links"><a href="https://www.archiposition.com/items/20240408060241" target="_blank" rel="noopener">设计团队供稿：福田中学</a></p>
+      </div>
+    </div>
+  </div>
+</article></section><section class="theme" id="maintenance"><header><h2><span class="cn">维护</span> Maintenance</h2><p class="count">7 projects</p></header>
+<article class="card" id="p-9">
+  <div class="media"><img src="in-time-assets/9.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">9</span><span class="status">core</span></div>
+    <h3>巷子里街区·社区公共空间更新</h3>
+    <div class="en">Xiangzili neighbourhood public-space renewal</div>
+    <div class="meta">四川成都 · 2020—2022三期落地 · 一介建筑 Nhoow＋玉林东路社区</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 86.6,75.3 60.0,106.0 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Maintenance</b><br><span class="muted">also bulging: Cultural · Financial · Material</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Designers stayed to operate; each phase was revised by use.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>需求通过使用才逐渐显现，一次性任务书难以预先容纳后续参与者和活动。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>三期平面与反馈事件叠合，每次调整标明提出者、时机和后续影响。</p>
+        <p class='gate'><b>Gate:</b> 核心。是最直接检验时间剖面方法的案例之一，需补充2022年之后的使用变化。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> SWING CALL: filed Maintenance (from Cultural) — staying-to-operate is the maintenance argument.</p>
+        
+        <p class="links"><a href="https://www.archdaily.com/zh/1002429/xiang-zi-li-jie-qu-star-she-qu-gong-gong-kong-jian-geng-xin-jie-jian-zhu" target="_blank" rel="noopener">一介供稿：巷子里三期更新</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-8">
+  <div class="media"><img src="in-time-assets/8.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">8</span><span class="status">reserve</span></div>
+    <h3>新华社区营造中心</h3>
+    <div class="en">Xinhua Community Building Centre, Shanghai</div>
+    <div class="meta">上海长宁 · 2022年9月开放 · 新华路街道＋大鱼营造及社区参与者</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 73.3,52.3 86.6,75.3 60.0,106.0 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Maintenance</b><br><span class="muted">also bulging: Cultural · Financial</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> One delivery is visible; repeated organizing labor is invisible.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>一次空间交付容易被看见，持续组织活动、协调意见与维护关系则依赖反复投入的劳动。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>居民发起事项与空间变动共同构成的日历；展现参与者的实际决策。</p>
+        <p class='gate'><b>Gate:</b> 对读。需区分活动数量、稳定参与和真正拥有决策权。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Swing from Cultural.</p>
+        
+        <p class="links"><a href="https://www.shcn.gov.cn/col7343/20220926/1222508.html" target="_blank" rel="noopener">长宁区政府：新华社区营造中心</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-25">
+  <div class="media"><img src="in-time-assets/25.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">25</span><span class="status">reserve</span></div>
+    <h3>安茶博物馆工场</h3>
+    <div class="en">Ancha (An Tea) Museum Factory</div>
+    <div class="meta">湖南益阳安化 · 2023完全建成（设计师访谈） · 普罗建筑 office PROJECT：李汶翰、常可</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 86.6,44.7 86.6,75.3 60.0,106.0 46.7,67.7 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Maintenance</b><br><span class="muted">also bulging: Ecological · Cultural · Material</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Tea season and craft time re-scheduled by the tourist&#x27;s hour.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>茶的季节与工艺时间，可能被游客的短时体验重新编排。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>一段制作工序与建造调整并置，明确哪些是日常生产、哪些是演示。</p>
+        <p class='gate'><b>Gate:</b> 对读，证据要求较高。项目名称包含“工场”，不能据此断言持续生产已经形成。</p>
+        
+        
+        <p class="links"><a href="https://www.gooood.cn/get-project-case-sharing-no-17-ancha-museum-factory.htm" target="_blank" rel="noopener">谷德对设计师访谈：安茶博物馆工场</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-A09">
+  <div class="media"><img src="in-time-assets/A09.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">A09</span><span class="status">priority add</span></div>
+    <h3>Infrastructure of the Ordinary: The Shanzhai Trolley / 日常基础设施：山寨手推车</h3>
+    <div class="en">Infrastructure of the Ordinary — the Shanzhai Trolley, Huaqiangbei</div>
+    <div class="meta">Project and Maintenance; Lived and Cultural; Sensing and Computational; Governance and Financial</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 73.3,52.3 86.6,75.3 60.0,106.0 33.4,75.3 33.4,44.7" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Maintenance</b><br><span class="muted">also bulging: Cultural · Technological · Financial</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Manual repeated trips keep a &#x27;real-time&#x27; electronics market moving.</p>
+        
+        <p class='ex'><b>拟议展品 / proposition：</b>A working trolley prototype carries components between pavilion sections on a daily route. Its movement log becomes a live time section of the exhibition’s own maintenance.</p>
+        <p class='gate'><b>Gate:</b> It was already shown at the 2025 UABB Huaqiangbei sub-venue. Verify eligibility, develop a genuinely new Venice iteration, and make workers collaborators rather than visual evidence.</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Shown at UABB 2025 — needs a genuinely new Venice iteration; workers as collaborators.</p>
+        
+        <p class="links"><a href="https://designtrust.hk/grant-recipients/infrastructure-of-the-ordinary-the-shanzhai-trolley/" target="_blank" rel="noopener">Design Trust project page (Seed Grant 2025)</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-B01">
+  <div class="media"><img src="in-time-assets/B01.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">B01</span><span class="status">commission</span></div>
+    <h3>Shanghai Expo Village afterlife audit / 上海世博村赛后使用复访</h3>
+    <div class="en">Shanghai Expo Village — afterlife audit (commission)</div>
+    <div class="meta">Material and Building; Lived and Cultural; Governance and Financial; Project and Maintenance</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 86.6,75.3 60.0,106.0 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Maintenance</b><br><span class="muted">also bulging: Material · Financial · Cultural</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Event time vs neighborhood upkeep; existing evidence is designer-led.</p>
+        
+        
+        
+        <p class='call'><b>Curatorial call (Jane):</b> Enters only through an independent post-occupancy commission.</p>
+        
+        <p class="links"><a href="https://www.hpp.com/en/projects/expo-village-shanghai/" target="_blank" rel="noopener">HPP project account</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-B02">
+  <div class="media"><img src="in-time-assets/B02.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">B02</span><span class="status">commission</span></div>
+    <h3>Shougang Big Air post-event life / 首钢滑雪大跳台赛后使用</h3>
+    <div class="en">Shougang Big Air — post-event life (commission)</div>
+    <div class="meta">Material and Building; Governance and Financial; Project and Maintenance; Lived and Cultural</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 86.6,75.3 60.0,106.0 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Maintenance</b><br><span class="muted">also bulging: Material · Financial · Cultural</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Does a permanent Olympic facility acquire daily public life?</p>
+        
+        
+        
+        <p class='call'><b>Curatorial call (Jane):</b> State-promotional sources dominate — independent operational audit required.</p>
+        
+        <p class="links"><a href="https://english.beijing.gov.cn/forum/citytour/citytourleft/202410/t20241009_3912444.html" target="_blank" rel="noopener">Beijing municipal project page</a><a href="https://english.beijing.gov.cn/consuminginbeijing/onedayinbeijing/sportshealth/newsofsportshealth/202506/t20250613_4113195.html" target="_blank" rel="noopener">2025 trial-operation report</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-7">
+  <div class="media"><img src="in-time-assets/7.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">7</span><span class="status">reserve</span></div>
+    <h3>文二菜市A馆更新</h3>
+    <div class="en">Wen'er Vegetable Market Hall A, Hangzhou</div>
+    <div class="meta">浙江杭州 · 2024年1月开放 · 沈雷／内建筑及市场运营团队</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 73.3,52.3 86.6,75.3 60.0,106.0 33.4,75.3 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Maintenance</b><br><span class="muted">also bulging: Cultural · Financial</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Morning market, close and cleaning as three daily time slots.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>装修停业与开业节点影响每日采买和商户收入；设计品质需要持续的清洁与运营支撑。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>早市、收市与清洁三个时段的空间记录及商户时间线。</p>
+        <p class='gate'><b>Gate:</b> 对读。只选A馆，核实摊主延续与实际价格可及性。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Swing from Cultural.</p>
+        
+        <p class="links"><a href="https://hznews.hangzhou.com.cn/chengshi/content/2024-01/05/content_8670383.htm" target="_blank" rel="noopener">杭州网：文二菜市A馆开放</a></p>
+      </div>
+    </div>
+  </div>
+</article></section><section class="theme" id="financial"><header><h2><span class="cn">资金</span> Financial</h2><p class="count">7 projects</p></header>
+<article class="card" id="p-10">
+  <div class="media"><div class="ph"><span class="phnum">10</span><span>image pending<br><small>source hotlink-blocked or none found —<br>drop a file at in-time-assets/10.jpg</small></span></div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">10</span><span class="status">core</span></div>
+    <h3>劲松北社区改造一期示范区</h3>
+    <div class="en">Jinsong North community renewal Phase 1, Beijing</div>
+    <div class="meta">北京朝阳 · 2019年8月完成示范改造 · 劲松街道、愿景集团及居民／物业合作方</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 73.3,52.3 86.6,75.3 60.0,90.7 20.2,83.0 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Financial</b><br><span class="muted">also bulging: Maintenance · Cultural</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Three-year support fund vs indefinite upkeep and residents&#x27; ability to pay.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>短期建设与支持资金，必须连接长期服务、维修和居民支付能力。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>建设、资金支持和维护三条线，对齐服务变化与居民反馈。</p>
+        <p class='gate'><b>Gate:</b> 核心。需取得支持期之后的实际运营记录；不把财务模型当成已经验证的可持续结果。</p>
+        
+        
+        <p class="links"><a href="https://www.ndrc.gov.cn/xwdt/ztzl/czljxqgz/202112/t20211206_1306955.html" target="_blank" rel="noopener">国家发展改革委：劲松案例</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-24">
+  <div class="media"><img src="in-time-assets/24.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">24</span><span class="status">core</span></div>
+    <h3>大布村文化生活空间</h3>
+    <div class="en">Dabu Village Culture & Living Space, Songxi</div>
+    <div class="meta">福建南平松溪 · 2024年8月建成 · 可空建筑 Cocoon Studio及村集体／当地建设者</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 86.6,75.3 60.0,90.7 20.2,83.0 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Financial</b><br><span class="muted">also bulging: Material · Cultural · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Lease term, repair cycle and family generations do not coincide.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>租赁期限、建筑维修周期与家庭代际安排并不天然重合。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>匿名化使用协议与建筑节点对照，显示谁在何时拥有使用与改变的权利。</p>
+        <p class='gate'><b>Gate:</b> 核心。需清楚说明租期、退出和维修安排，避免将暂时闲置等同于永久可支配。</p>
+        
+        
+        <p class="links"><a href="https://www.gooood.cn/culture-living-space-of-dabu-village-songxi-county-by-cocoon-studio-shanghai.htm" target="_blank" rel="noopener">可空建筑供稿：大布村文化生活空间</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-16">
+  <div class="media"><img src="in-time-assets/16.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">16</span><span class="status">background</span></div>
+    <h3>GATE M西岸梦中心</h3>
+    <div class="en">GATE M West Bund Dream Centre, Shanghai — MVRDV</div>
+    <div class="meta">上海徐汇 · 2025建成项目记录 · MVRDV＋Field Operations等</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 86.6,75.3 60.0,75.3 20.2,83.0 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Financial</b><br><span class="muted">also bulging: Material · Cultural</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Investment interrupted twice; the concrete waited between developers.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>建筑物质可以延续，投资方案却可能中断、更替；空间在不同开发周期中等待。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>原工厂、上一轮开发与现阶段三套剖面叠合。</p>
+        <p class='gate'><b>Gate:</b> 对读。需解释公共可达性及经营条件；商业成功不能替代对公共价值的判断。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Swing from Material — the interrupted-capital clock.</p>
+        
+        <p class="links"><a href="https://www.gooood.cn/gate-m-west-bund-dream-center-by-mvrdv.htm" target="_blank" rel="noopener">MVRDV供稿：GATE M</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-A02">
+  <div class="media"><div class="ph"><span class="phnum">A02</span><span>image pending<br><small>source hotlink-blocked or none found —<br>drop a file at in-time-assets/A02.jpg</small></span></div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">A02</span><span class="status">priority add</span></div>
+    <h3>Nantou Ancient City regeneration / 南头古城更新</h3>
+    <div class="en">Nantou Ancient City regeneration — URBANUS</div>
+    <div class="meta">Lived and Cultural; Governance and Financial; Project and Maintenance; Material and Building</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 86.6,75.3 60.0,90.7 20.2,83.0 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Financial</b><br><span class="muted">also bulging: Cultural · Maintenance · Material</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> A 2,000-year narrative, festival time, rent turnover and staged renewal.</p>
+        
+        <p class='ex'><b>拟议展品 / proposition：</b>Do not exhibit a completed masterplan. Build a versioned map of six interventions, resident/business turnover, event periods, rent and access shifts, and what remained outside the project boundary.</p>
+        <p class='gate'><b>Gate:</b> High familiarity and prior biennale exposure. It earns a place only through current afterlife evidence, resident accounts, and a critical account of commercialization.</p>
+        <p class='call'><b>Curatorial call (Jane):</b> SWING CALL: filed Financial (from Cultural) — rent/commercialization is its sharper 时差. High prior biennale exposure.</p>
+        
+        <p class="links"><a href="https://www.urbanus.com.cn/writings/coexistence-and-regeneration-in-nantou/" target="_blank" rel="noopener">URBANUS, coexistence and regeneration</a><a href="https://www.urbanus.com.cn/curating-in-nantou-short/" target="_blank" rel="noopener">URBANUS, curating in Nantou</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-B03">
+  <div class="media"><img src="in-time-assets/B03.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">B03</span><span class="status">commission</span></div>
+    <h3>Huangpu River 45 km public-space connection, narrowed to one break / 黄浦江公共空间贯通的一处断点</h3>
+    <div class="en">One break in the Huangpu River 45-km public-space connection (commission)</div>
+    <div class="meta">Governance and Financial; Project and Maintenance; Lived and Cultural; Ecological and Territorial</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 86.6,44.7 86.6,75.3 60.0,90.7 20.2,83.0 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Financial</b><br><span class="muted">also bulging: Maintenance · Cultural · Ecological</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> One negotiated break out of ~100; upkeep and access since.</p>
+        
+        
+        
+        
+        
+        <p class="links"><a href="https://ghzyj.sh.gov.cn/tpxw/20201029/bdb18d2cc3414b6d921a80a2fcfcd7f6.html" target="_blank" rel="noopener">Shanghai planning authority account</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-11">
+  <div class="media"><img src="in-time-assets/11.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">11</span><span class="status">background</span></div>
+    <h3>青灯村公共美术馆</h3>
+    <div class="en">Qingdeng Village Public Art Museum</div>
+    <div class="meta">江苏苏州 · 2024年10月开始设计；2026年8月完成 · 佚建筑工作室</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 86.6,75.3 60.0,75.3 20.2,83.0 46.7,52.3" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Financial</b><br><span class="muted">also bulging: Material · Cultural</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Administrative reorganization ended use before structural life; &#x27;post-occupancy&#x27; images are AI-generated.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>行政用途的结束早于结构寿命；改造完成也早于稳定公共生活的形成。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>村委楼—闲置—改造—使用的连续剖面，标明仍在形成的关系。</p>
+        <p class='gate'><b>Gate:</b> 对读。供稿部分“运营后场景”明确标注AI生成，不能当作实际使用证据。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Swing from Material — a funding/administration clock. Top-up.</p>
+        
+        <p class="links"><a href="https://www.archiposition.com/items/01e964dee7" target="_blank" rel="noopener">佚建筑供稿：青灯村公共美术馆</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-ART_LIUCHUANG">
+  <div class="media"><img src="in-time-assets/ART_LIUCHUANG.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">ART</span><span class="status">art longlist</span></div>
+    <h3>刘窗《比特币矿与少数民族田野录音》</h3>
+    <div class="en">Liu Chuang, <i>Bitcoin Mining and Field Recordings of Ethnic Minorities</i> (2018)</div>
+    <div class="meta"></div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 86.6,44.7 73.3,67.7 60.0,75.3 20.2,83.0 33.4,44.7" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">技术</text></svg><div class="proflab">time-section profile · filed under <b>Financial</b><br><span class="muted">also bulging: Ecological · Technological</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Hydropower, crypto finance and minority territories on incommensurable clocks.</p>
+        
+        
+        
+        <p class='call'><b>Curatorial call (Jane):</b> Carries the Financial column's computational-capital case.</p>
+        
+        <p class="links"><a href="https://www.antenna-space.com/en/artists/liu-chuang" target="_blank" rel="noopener">project</a></p>
+      </div>
+    </div>
+  </div>
+</article></section><section class="theme" id="technological"><header><h2><span class="cn">技术</span> Technological</h2><p class="count">7 projects</p></header>
+<article class="card" id="p-40">
+  <div class="media"><img src="in-time-assets/40.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">40</span><span class="status">core</span></div>
+    <h3>数字孪生都江堰：渠首与灌区调度</h3>
+    <div class="en">Digital-twin Dujiangyan — headworks and irrigation dispatch</div>
+    <div class="meta">四川成都平原 · 2022—2025持续建设；2026有运行报道 · 四川省都江堰水利发展中心及技术／基层水利团队</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 86.6,44.7 86.6,75.3 60.0,90.7 46.7,67.7 20.2,37.0" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">技术</text></svg><div class="proflab">time-section profile · filed under <b>Technological</b><br><span class="muted">also bulging: Ecological · Maintenance · Cultural</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Fast dispatch depends on 2,000-year hydraulic knowledge, field seasons and changing inflow.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>快速计算与调度依赖长期水工知识、田间季节、维护劳动和不断变化的来水条件。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>一次实际配水事件，同时展示水情、预测、操作与后续田间反馈。</p>
+        <p class='gate'><b>Gate:</b> 核心。限定已运行系统，区分报道中的局部效率与整个灌区效果；不将数字孪生一概称为AI。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> The proposal's best slow-fast case.</p>
+        
+        <p class="links"><a href="https://www.stdaily.com/web/gdxw/2026-01/05/content_457227.html" target="_blank" rel="noopener">科技日报：都江堰数字孪生运行报道</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-34">
+  <div class="media"><img src="in-time-assets/34.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">34</span><span class="status">core</span></div>
+    <h3>鼓浪屿黄荣远堂数字测绘与修复协作</h3>
+    <div class="en">Huang Rongyuan Hall — digital survey and restoration, Gulangyu</div>
+    <div class="meta">福建厦门 · 2025公开报道的实践 · 厦门大学文化遗产学社／李渊＋遗产管理与修复团队</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 73.3,52.3 86.6,75.3 60.0,90.7 46.7,67.7 20.2,37.0" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">技术</text></svg><div class="proflab">time-section profile · filed under <b>Technological</b><br><span class="muted">also bulging: Material · Maintenance · Cultural</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> A scan freezes a moment; deterioration continues; models need later keepers.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>扫描冻结某一时刻，建筑劣化持续发生；数据也需要后来者维护和理解。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>同一构件的现场状态、扫描与修复决策，标明记录日期及版本。</p>
+        <p class='gate'><b>Gate:</b> 核心。应呈现模型如何影响具体修复，不以“永久数字保存”代替长期维护机制。</p>
+        
+        
+        <p class="links"><a href="https://archt.xmu.edu.cn/info/1013/16274.htm" target="_blank" rel="noopener">厦门大学：黄荣远堂数字化修复实践</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-36">
+  <div class="media"><img src="in-time-assets/36.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">36</span><span class="status">reserve · Helena&#x27;s pick</span></div>
+    <h3>腾讯贵安七星数据中心一期</h3>
+    <div class="en">Tencent Gui'an Qixing Data Centre — <b>paired with He Zike, <i>Random Access</i></b></div>
+    <div class="meta">贵州贵安 · 2018一期试运行；2021有运营说明 · 腾讯及设计建设、运维合作方</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 86.6,44.7 73.3,67.7 60.0,90.7 46.7,67.7 20.2,37.0" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">技术</text></svg><div class="proflab">time-section profile · filed under <b>Technological</b><br><span class="muted">also bulging: Ecological · Material · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> A long-life cavern hosts 3–5-year equipment; the city never sees the mountain.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>长寿命山体工程容纳更快更替的计算设备，并支持城市连续在线的服务。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>城市—网络—洞库的剖面，叠合设备更换与建筑维护。</p>
+        <p class='gate'><b>Gate:</b> 对读。不是直接占用天然洞穴；节能不能只引用企业宣传，需运行边界与数据。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> CONDITION: include only with A07 beside it, or it reads as corporate display. Operating data, not Tencent's claims.</p>
+        <div class="pair">＋ A07 He Zike, <i>Random Access</i> (2023) — <a href="https://aagff.mplus.org.hk/en/stories/avant-garde-now-hidden-spaces/" target="_blank" rel="noopener">source</a>. Pair the film with the dossier’s 贵安七星 data-centre section. One side shows verified infrastructure and maintenance cycles; the other shows what secrecy, inaccessibility, and dependence feel like from the city.</div>
+        <p class="links"><a href="https://developer.cloud.tencent.com/article/1142352" target="_blank" rel="noopener">腾讯云：贵安七星一期介绍</a><a href="https://www.tencent.com/zh-hk/technology-powered-by-electricity-could-ultimately-help-reduce-energy-use/" target="_blank" rel="noopener">腾讯：数据中心能源实践</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-18">
+  <div class="media"><img src="in-time-assets/18.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">18</span><span class="status">core</span></div>
+    <h3>星火761北京数字经济算力中心</h3>
+    <div class="en">Spark 761 Digital-Economy AI Data Centre, Beijing — llLab</div>
+    <div class="meta">北京 · 2025年4月建成 · llLab.叙向建筑设计及业主／技术协作方</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 86.6,44.7 73.3,67.7 60.0,90.7 46.7,67.7 20.2,37.0" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">技术</text></svg><div class="proflab">time-section profile · filed under <b>Technological</b><br><span class="muted">also bulging: Material · Maintenance · Ecological</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Factory shell serves decades; MEP and compute are replaced fast; service must never stop.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>厂房可能服务数十年，机电和计算设备更替更快，城市数字服务又要求连续运行。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>旧厂房—机电—算力设备的嵌套剖面及可更换节点。</p>
+        <p class='gate'><b>Gate:</b> 核心。需核实实际投入使用的计算功能；不能用建筑竣工推断全部算力已投运。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> SWING CALL: filed Technological (from Material) — compute inside an industrial shell is track six.</p>
+        
+        <p class="links"><a href="https://www.gooood.cn/spark-761-beijing-digital-economy-aidc-by-lllab.htm" target="_blank" rel="noopener">llLab.供稿：星火761</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-A06">
+  <div class="media"><img src="in-time-assets/A06.jpg" alt="" loading="lazy"><div class="credit">image: \1</div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">A06</span><span class="status">priority add</span></div>
+    <h3>*Biotopy*, Wendi Yan / 闫文笛《Biotopy》</h3>
+    <div class="en">Wendi Yan, <i>Biotopy</i> — live bio-digital instrument</div>
+    <div class="meta">Ecological and Territorial; Sensing and Computational; Project and Maintenance</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 86.6,44.7 73.3,67.7 60.0,90.7 46.7,67.7 20.2,37.0" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">技术</text></svg><div class="proflab">time-section profile · filed under <b>Technological</b><br><span class="muted">also bulging: Ecological · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Microbial growth and game real-time mutually dependent; a six-month live instrument.</p>
+        
+        <p class='ex'><b>拟议展品 / proposition：</b>Run a Venice culture and a China culture under shared display rules, with growth curves, sensor updates, care logs, and game-state changes shown together. The pavilion becomes a six-month experiment rather than a static demonstration.</p>
+        <p class='gate'><b>Gate:</b> Biological import, lab safety, daily care, backup protocol, authorship of scientific contributions, and what happens when organisms or sensors fail.</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Import, lab safety, daily care and failure protocol are the gates.</p>
+        
+        <p class="links"><a href="https://wendiyan.com/01-biotopy" target="_blank" rel="noopener">Artist’s project page</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-37">
+  <div class="media"><div class="ph"><span class="phnum">37</span><span>image pending<br><small>source hotlink-blocked or none found —<br>drop a file at in-time-assets/37.jpg</small></span></div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">37</span><span class="status">reserve</span></div>
+    <h3>海南陵水海底数据中心一期</h3>
+    <div class="en">Hainan Lingshui undersea data centre</div>
+    <div class="meta">海南陵水海域 · 2023年11月完成一期建设 · 海兰信／海兰云及建设运营合作方</div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,29.3 86.6,44.7 73.3,67.7 60.0,90.7 46.7,67.7 20.2,37.0" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">技术</text></svg><div class="proflab">time-section profile · filed under <b>Technological</b><br><span class="muted">also bulging: Ecological · Material · Maintenance</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> Chip upgrade, hull inspection, marine change and subsea engineering life all differ.</p>
+        <p class='sc'><b>时差 · 策展判断：</b>芯片升级、舱体检修、海洋环境变化与海底工程寿命并不同步。</p>
+        <p class='ex'><b>拟议展品 / proposition：</b>海岸—海底舱体剖面与设备升级、维护窗口的对齐。</p>
+        <p class='gate'><b>Gate:</b> 对读。限定一期，不采用计划百舱的预测节能值；生态与全寿命表现仍需实际资料。</p>
+        <p class='call'><b>Curatorial call (Jane):</b> Top-up: the marine-maintenance clock.</p>
+        
+        <p class="links"><a href="https://ecas.cas.cn/xxkw/kbcd/201115_144389/ml/xxhjsyjcss/202312/t20231227_4992971.html" target="_blank" rel="noopener">中国科学院网信工作网：一期完成</a></p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="card" id="p-ART_LIAMYOUNG">
+  <div class="media"><div class="ph"><span class="phnum">ART</span><span>image pending<br><small>source hotlink-blocked or none found —<br>drop a file at in-time-assets/ART_LIAMYOUNG.jpg</small></span></div></div>
+  <div class="body">
+    <div class="kicker"><span class="num">ART</span><span class="status">Helena&#x27;s pick</span></div>
+    <h3>Liam Young 委约 / Planet City</h3>
+    <div class="en">Liam Young — new machine-vision commission, or <i>Planet City</i></div>
+    <div class="meta"></div>
+    <div class="row">
+      <div class="prof"><svg class="radar" viewBox="0 0 120 120" width="120" height="120" aria-label="time-section profile"><circle cx="60.0" cy="60.0" r="15.3" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="30.7" fill="none" stroke="#e8e2d6" stroke-width="1"/><circle cx="60.0" cy="60.0" r="46.0" fill="none" stroke="#e8e2d6" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="14.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="99.8" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="60.0" y2="106.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="83.0" stroke="#d9d2c5" stroke-width="1"/><line x1="60.0" y1="60.0" x2="20.2" y2="37.0" stroke="#d9d2c5" stroke-width="1"/><polygon points="60.0,44.7 86.6,44.7 86.6,75.3 60.0,75.3 46.7,67.7 20.2,37.0" fill="rgba(138,43,27,0.22)" stroke="#8a2b1b" stroke-width="1.6"/><text x="60.0" y="4.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">材料</text><text x="108.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">生态</text><text x="108.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">文化</text><text x="60.0" y="116.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">维护</text><text x="11.5" y="88.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#6b6459" font-weight="400">资金</text><text x="11.5" y="32.0" font-size="9" text-anchor="middle" dominant-baseline="middle" fill="#8a2b1b" font-weight="700">技术</text></svg><div class="proflab">time-section profile · filed under <b>Technological</b><br><span class="muted">also bulging: Cultural · Ecological</span></div></div>
+      <div class="txt">
+        <p class="oot"><b>Out of time with:</b> What the city&#x27;s sensing system cannot see.</p>
+        
+        
+        
+        <p class='call'><b>Curatorial call (Jane):</b> FLAG: avoid <i>Where the City Can't See</i> (its 'Chinese-owned Detroit zone' imagery is an avoidable distraction in a national pavilion). International-contributor rationale to be written early.</p>
+        
+        <p class="links"><a href="https://www.liamyoung.org/projects/planet-city" target="_blank" rel="noopener">project</a></p>
+      </div>
+    </div>
+  </div>
+</article></section>
+<section class="appendix" id="appendix">
+  <h2>Appendix A — Selection calls made in this pool (for Helena to keep or flip)</h2><ul><li><b>A03</b> Jingdezhen Imperial Kiln Museum / 景德镇御窑博物馆 <span class='muted'>[Material]</span> — Prior international exposure (MoMA) — needs fresh craft/operational evidence.</li><li><b>15</b> 马尾船厂片区保护建设一期 <span class='muted'>[Material]</span> — Top-up: the clearest labor-memory clock in the Material column.</li><li><b>A04</b> *Forest*, Yan Wang Preston / 严望佳《森林》 <span class='muted'>[Ecological]</span> — Proposed 2026–27 revisit commission turns the artwork into a longitudinal test.</li><li><b>21</b> 美舍河凤翔湿地公园 <span class='muted'>[Ecological]</span> — Top-up: the governance-time case in the Ecological column.</li><li><b>3</b> 退休房／退休宅 <span class='muted'>[Cultural]</span> — Consent-sensitive: resident-led account required or use as reserve.</li><li><b>A08</b> Chen Qiulin’s Three Gorges sequence / 陈秋林三峡影像序列 <span class='muted'>[Cultural]</span> — Older than the call's preferred range — a 2026–27 return commission solves the eligibility problem.</li><li><b>5</b> 福田中学改扩建 <span class='muted'>[Cultural]</span> — Top-up: the generational clock in the Cultural column.</li><li><b>9</b> 巷子里街区·社区公共空间更新 <span class='muted'>[Maintenance]</span> — SWING CALL: filed Maintenance (from Cultural) — staying-to-operate is the maintenance argument.</li><li><b>8</b> 新华社区营造中心 <span class='muted'>[Maintenance]</span> — Swing from Cultural.</li><li><b>A09</b> Infrastructure of the Ordinary: The Shanzhai Trolley / 日常基础设施：山寨手推车 <span class='muted'>[Maintenance]</span> — Shown at UABB 2025 — needs a genuinely new Venice iteration; workers as collaborators.</li><li><b>B01</b> Shanghai Expo Village afterlife audit / 上海世博村赛后使用复访 <span class='muted'>[Maintenance]</span> — Enters only through an independent post-occupancy commission.</li><li><b>B02</b> Shougang Big Air post-event life / 首钢滑雪大跳台赛后使用 <span class='muted'>[Maintenance]</span> — State-promotional sources dominate — independent operational audit required.</li><li><b>7</b> 文二菜市A馆更新 <span class='muted'>[Maintenance]</span> — Swing from Cultural.</li><li><b>16</b> GATE M西岸梦中心 <span class='muted'>[Financial]</span> — Swing from Material — the interrupted-capital clock.</li><li><b>A02</b> Nantou Ancient City regeneration / 南头古城更新 <span class='muted'>[Financial]</span> — SWING CALL: filed Financial (from Cultural) — rent/commercialization is its sharper 时差. High prior biennale exposure.</li><li><b>11</b> 青灯村公共美术馆 <span class='muted'>[Financial]</span> — Swing from Material — a funding/administration clock. Top-up.</li><li><b>ART_LIUCHUANG</b> 刘窗《比特币矿与少数民族田野录音》 <span class='muted'>[Financial]</span> — Carries the Financial column's computational-capital case.</li><li><b>40</b> 数字孪生都江堰：渠首与灌区调度 <span class='muted'>[Technological]</span> — The proposal's best slow-fast case.</li><li><b>36</b> 腾讯贵安七星数据中心一期 <span class='muted'>[Technological]</span> — CONDITION: include only with A07 beside it, or it reads as corporate display. Operating data, not Tencent's claims.</li><li><b>18</b> 星火761北京数字经济算力中心 <span class='muted'>[Technological]</span> — SWING CALL: filed Technological (from Material) — compute inside an industrial shell is track six.</li><li><b>A06</b> *Biotopy*, Wendi Yan / 闫文笛《Biotopy》 <span class='muted'>[Technological]</span> — Import, lab safety, daily care and failure protocol are the gates.</li><li><b>37</b> 海南陵水海底数据中心一期 <span class='muted'>[Technological]</span> — Top-up: the marine-maintenance clock.</li><li><b>ART_LIAMYOUNG</b> Liam Young 委约 / Planet City <span class='muted'>[Technological]</span> — FLAG: avoid <i>Where the City Can't See</i> (its 'Chinese-owned Detroit zone' imagery is an avoidable distraction in a national pavilion). International-contributor rationale to be written early.</li></ul>
+  <h2>Appendix B — Images still pending (7)</h2><p class="muted">Sources on gooood.cn (Aliyun OSS) and ArchDaily's CDN block direct download; a browser save into <code>in-time-assets/&lt;id&gt;.jpg</code> fills any card automatically on rebuild.</p><ul><li><b>28</b> — 洱海生态廊道阳南溪—才村示范段 <span class='muted'>(Ecological)</span></li><li><b>A04</b> — *Forest*, Yan Wang Preston / 严望佳《森林》 <span class='muted'>(Ecological)</span></li><li><b>A05</b> — Handshake 302 and the Baishizhou archive / 握手302与白石洲档案 <span class='muted'>(Cultural)</span></li><li><b>10</b> — 劲松北社区改造一期示范区 <span class='muted'>(Financial)</span></li><li><b>A02</b> — Nantou Ancient City regeneration / 南头古城更新 <span class='muted'>(Financial)</span></li><li><b>37</b> — 海南陵水海底数据中心一期 <span class='muted'>(Technological)</span></li><li><b>ART_LIAMYOUNG</b> — Liam Young 委约 / Planet City <span class='muted'>(Technological)</span></li></ul>
+  <h2>Appendix C — Distribution</h2><p>Material 6 · Ecological 6 · Cultural 7 · Maintenance 7 · Financial 7 · Technological 7 = 40. The thin native columns (Maintenance 2, Financial 3 in the raw pool) are filled here by swing calls, commissioned afterlife audits, and the art layer — the exhibition's own argument made visible rather than padded.</p>
+  <p class="muted">Built from: Time_Differences_40_Project_Dossier (colleagues), In Time – Curatorial Review and Expanded Project Dossier (Chuany), In Time – Six Themes Project Organization (Chuany/Helena), Artwork Longlist. All verification gates from the 12 Sept review still apply.</p>
+</section>
+</div></body></html>
