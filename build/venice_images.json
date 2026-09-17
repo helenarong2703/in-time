@@ -7,7 +7,8 @@
    "A03",
    "12",
    "15",
-   "R01"
+   "R01",
+   "A11"
   ],
   "Ecological": [
    "30",
@@ -25,16 +26,14 @@
    "A05",
    "35",
    "A08",
-   "5"
+   "A10"
   ],
   "Maintenance": [
-   "9",
    "8",
    "25",
    "A09",
    "B01",
-   "B02",
-   "7"
+   "B02"
   ],
   "Financial": [
    "10",
@@ -43,7 +42,8 @@
    "A02",
    "B03",
    "11",
-   "ART_LIUCHUANG"
+   "ART_LIUCHUANG",
+   "R04"
   ],
   "Technological": [
    "40",
@@ -320,6 +320,24 @@
    "img": "R03.jpg",
    "img_src": "https://v2.cri.cn/c89e53c6-0bc7-45ca-ac11-a385002d7d11/9704f78d-4cc6-4d62-b647-e8a4015ef43c/image/19d40684-f8fc-4dea-853c-1ad6def2fad8.900x506.750x421.png",
    "note": "ok · CRI 2026-01 robot-dog scan photo (16 Sep); R03b = Commons aerial CC BY-SA 4.0 Charlie fong"
+  },
+  "A10": {
+   "url": "https://www.beijingsilvermine.com/",
+   "img": "A10.jpg",
+   "img_src": "https://static1.squarespace.com/static/57f4f5ca2994ca0ac87ba1df/t/5818829d893fc0c77e243164/1478001311323/home-china-110-beijing-silvermine-thomas-sauvin.jpg",
+   "note": "ok · site hero image (17 Sep)"
+  },
+  "R04": {
+   "url": "https://doi.org/10.1016/j.oneear.2026.101649",
+   "img": "R04.jpg",
+   "img_src": "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/304382981/ZhangN2026China.pdf",
+   "note": "graphical abstract cropped from the CC BY PDF (17 Sep)"
+  },
+  "A11": {
+   "url": "https://www.kokaistudios.com/portfolio/former-kunming-rubber-factory-renovation.html",
+   "img": "A11.jpg",
+   "img_src": "https://oss.gooood.cn/uploads/2017/06/003-Renovation-of-a-Former-Rubber-Factory-in-Kunming-960x619.jpg",
+   "note": "ok · gooood article image, photo Dirk Weiblen (17 Sep)"
   }
  }
 }

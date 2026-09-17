@@ -1001,6 +1001,60 @@
      "CRI 2026-01: AI sensing upgrade"
     ]
    ]
+  },
+  "A10": {
+   "code": "A10",
+   "title": "Beijing Silvermine / 北京银矿 — Thomas Sauvin",
+   "body": "Archive, found photography  \n Thomas Sauvin 苏文 (French collector and artist), Beijing / Paris; since 2009  \n Lived and Cultural; Material and Building; Governance and Financial\n\nSince 2009 Sauvin has salvaged discarded colour negatives from a recycling plant on the edge of Beijing, where they were bound for destruction and silver recovery. The archive now holds over 850,000 anonymous photographs (the homepage says 'over a million') spanning 1985 to 2005, the first two decades of popular colour photography in the capital, and has become one of the largest archival projects in China.",
+   "tracks": "Lived and Cultural; Material and Building; Governance and Financial",
+   "prop": "A sorting table: the negatives shown as material (silver, acetate, the recycler's price per kilo) and as memory (the same frames as family time), with the years 1985–2005 laid against the districts and buildings that have since gone.",
+   "gate": "Consent and anonymity: the photographs are anonymous by nature; agree with Sauvin which series can be shown in a national pavilion and how subjects are protected. The silver-recovery detail is to be confirmed with him; the site names the plant and the salvage, not the process.",
+   "links": [
+    [
+     "https://www.beijingsilvermine.com/",
+     "Beijing Silvermine website"
+    ],
+    [
+     "https://www.beijingsilvermine.com/about",
+     "About the archive"
+    ]
+   ]
+  },
+  "R04": {
+   "code": "R04",
+   "title": "China's Unfinished Buildings as Urban Stranded Assets / 中国烂尾建筑的城市搁浅资产研究",
+   "body": "Research (industrial ecology, urban studies)  \n 段华波 Huabo Duan, School of Environmental Science and Engineering, Huazhong University of Science and Technology, with 白雪梅 Xuemei Bai (ANU) and co-authors; One Earth 9(5), 101649, published 19 March 2026 (CC BY)  \n Governance and Financial; Material and Building; Ecological and Territorial\n\nA georeferenced inventory of 1,779 unfinished residential projects in 142 Chinese cities as of the end of 2023 (the highlights say 1,799). It quantifies the materials locked in (485 Mt of steel, cement, brick and tile, sand and stone, per the graphical abstract) and 181 Mt of emissions, a 9.6% rise in the real-estate sector's carbon intensity, about 2.6 million disability-adjusted life years of PM2.5 health burden, and 347 ± 32 billion USD of economic losses borne unevenly by buyers, builders and local governments, with the projects clustering in new suburbs.",
+   "tracks": "Governance and Financial; Material and Building; Ecological and Territorial",
+   "prop": "The inventory map beside one building's ledger: purchase date, stalled date, years waiting, material stock by the tonne, carbon and money locked in. The unfinished building as the pool's clearest case of finance stopping while matter and people keep aging.",
+   "gate": "Research, not a site: the inventory is georeferenced and buyers are identifiable, so use aggregate figures unless the authors clear project-level detail. Cite the published version; reconcile the two counts (1,779 / 1,799) with the authors before either appears on a wall.",
+   "links": [
+    [
+     "https://doi.org/10.1016/j.oneear.2026.101649",
+     "One Earth article (DOI)"
+    ],
+    [
+     "https://pure-oai.bham.ac.uk/ws/portalfiles/portal/304382981/ZhangN2026China.pdf",
+     "Open-access PDF (University of Birmingham repository)"
+    ]
+   ]
+  },
+  "A11": {
+   "code": "A11",
+   "title": "Former Kunming Rubber Factory Renovation / 昆明橡胶厂改造 — Kokaistudios",
+   "body": "Adaptive reuse, industrial heritage  \n Kokaistudios (Shanghai); client Realtop Real Estate Group; commissioned 2011, completed 2017; 30,000 m² on a one-hectare site, Xishan District, Kunming  \n Material and Building; Lived and Cultural; Governance and Financial; Project and Maintenance\n\nA factory founded in 1956, at its peak in the 1980s with 2,000 workers, defunct around 2000. The studio read the site as layers of material time: black bricks of the 1950s–60s, red bricks of the 1970s–80s, cement facades of the 1990s. It kept five buildings and the smokestack, demolished one low-value warehouse to make a public space, added curved glass volumes on columns, and opened the walled compound to mixed uses (lofts, retail, a brewery, offices).",
+   "tracks": "Material and Building; Lived and Cultural; Governance and Financial; Project and Maintenance",
+   "prop": "One wall, three bricks: samples of the 1950s black brick, the 1970s red brick and the 1990s cement render with their dates, beside the 2011–2017 project line and the site's employment curve (0 → 2,000 → 0 → present tenants).",
+   "gate": "Developer-led (Realtop): verify occupancy and public access in 2026, nine years after completion, before it stands for reuse that lasted. Ask the studio for post-occupancy material, not only the 2017 photographs.",
+   "links": [
+    [
+     "https://www.kokaistudios.com/portfolio/former-kunming-rubber-factory-renovation.html",
+     "Kokaistudios project page"
+    ],
+    [
+     "https://www.gooood.cn/renovation-of-a-former-rubber-factory-in-kunming-by-kokaistudios.htm",
+     "gooood article (2017)"
+    ]
+   ]
   }
  }
 }
