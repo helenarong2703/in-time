@@ -1,7 +1,7 @@
 import json, os, sys, re, html as H, math, datetime
 D = sys.argv[1]; ASSETS = "in-time-assets"
-pool = json.load(open('/tmp/venice_pool.json')); cases, adds = pool['cases'], pool['adds']
-img = json.load(open('/tmp/venice_images.json')); sel, res = img['sel'], img['results']
+HERE = os.path.dirname(os.path.abspath(__file__)); pool = json.load(open(os.path.join(HERE,'venice_pool.json'))); cases, adds = pool['cases'], pool['adds']
+img = json.load(open(os.path.join(HERE,'venice_images.json'))); sel, res = img['sel'], img['results']
 stmt = open(f"{D}/In Time - Refined Curatorial Statement (Jane, 16 Sept).md", encoding='utf-8').read()
 def section(md, start, end):
     i = md.find(start); j = md.find(end, i+len(start)); return md[i+len(start):j].strip()

@@ -2,6 +2,7 @@
 # Rebuild the In Time page from the vault build files and push to helenarong2703/in-time.
 # Copies ONLY the listed files. Never copy in-time-private/ (contacts) anywhere.
 set -e
+set -o pipefail
 V="/Users/hr2703/Dropbox/Obsidian Notes/05_RESEARCH/02_Embodied Urban Futures/Venice Biennale 2027 Venice China Pavilion"
 BD="$V/in-time-build"; R="$HOME/in-time-exhibition"; MSG="${1:-Update page}"
 cd /tmp && python3 "$BD/venice_build.py" "$V" | tail -1
