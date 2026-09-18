@@ -8,7 +8,8 @@
    "12",
    "15",
    "R01",
-   "A11"
+   "A11",
+   "A12"
   ],
   "Ecological": [
    "30",
@@ -17,7 +18,8 @@
    "28",
    "A04",
    "21",
-   "R02"
+   "R02",
+   "A16"
   ],
   "Cultural": [
    "4",
@@ -26,14 +28,17 @@
    "A05",
    "35",
    "A08",
-   "A10"
+   "A10",
+   "A13",
+   "A15"
   ],
   "Maintenance": [
    "8",
    "25",
    "A09",
    "B01",
-   "B02"
+   "B02",
+   "A14"
   ],
   "Financial": [
    "10",
@@ -338,6 +343,40 @@
    "img": "A11.jpg",
    "img_src": "https://oss.gooood.cn/uploads/2017/06/003-Renovation-of-a-Former-Rubber-Factory-in-Kunming-960x619.jpg",
    "note": "ok · gooood article image, photo Dirk Weiblen (17 Sep)"
+  },
+  "A12": {
+   "url": "https://arch.seu.edu.cn/2025/0928/c9118a540969/page.htm",
+   "img": "A12.jpg",
+   "img_src": "http://zdimg.lifeweek.com.cn/h5/sys/img/20259/202511021210046_8183e78f25a44296a4fd396e1900f6b5.jpg",
+   "note": "ok · aerial from the 三联人文城市奖 2025 article (18 Sep); A12b = night courtyard",
+   "credit_page": "https://www.lifeweek.com.cn/h5/article/detail.do?artId=255611"
+  },
+  "A13": {
+   "url": "http://www.news.cn/politics/2022-09/30/c_1129043695.htm",
+   "img": "A13.jpg",
+   "img_src": "http://zdimg.lifeweek.com.cn/h5/sys/img/20259/20251102121004389_ccfd3c1e82764182874089d52f1ddb3b.jpg",
+   "note": "ok · field stage from the 三联人文城市奖 2025 article (18 Sep); A13b = evening performance",
+   "credit_page": "https://www.lifeweek.com.cn/h5/article/detail.do?artId=255611"
+  },
+  "A14": {
+   "url": "https://www.sznews.com/news/content/2025-09/11/content_31688459.htm",
+   "img": "A14.jpg",
+   "img_src": "http://news.sznews.com/pic/2025-09/11/31688459_f771eda5-1da4-4695-9b42-278cf1ce893b.jpg",
+   "note": "ok · 深圳新闻网 2025-09 photo (18 Sep); A14b = before/after collage from the award article"
+  },
+  "A15": {
+   "url": "https://www.arch.tsinghua.edu.cn/info/xw/2446",
+   "img": "A15.jpg",
+   "img_src": "http://zdimg.lifeweek.com.cn/h5/sys/img/20259/20251102121003642_67b9488dd9d540be8be3fdc21c486dd0.jpg",
+   "note": "ok · plane-tree shed with chimney from the award article (18 Sep); A15b = grass mound + chimney",
+   "credit_page": "https://www.lifeweek.com.cn/h5/article/detail.do?artId=255611"
+  },
+  "A16": {
+   "url": "https://www.archdaily.cn/cn/1018782/bei-jing-liang-ma-he-bin-shui-jing-guan-lang-dao-aecom",
+   "img": "A16.jpg",
+   "img_src": "http://zdimg.lifeweek.com.cn/h5/sys/img/20259/20251102121004853_58f2fc38861d40a8815c7ce65c819e4c.jpg",
+   "note": "ok · sunset river from the award article (18 Sep); A16b = wetland edge",
+   "credit_page": "https://www.lifeweek.com.cn/h5/article/detail.do?artId=255611"
   }
  }
 }
