@@ -48,7 +48,8 @@
    "B03",
    "11",
    "ART_LIUCHUANG",
-   "R04"
+   "R04",
+   "A17"
   ],
   "Technological": [
    "40",
@@ -377,6 +378,12 @@
    "img_src": "http://zdimg.lifeweek.com.cn/h5/sys/img/20259/20251102121004853_58f2fc38861d40a8815c7ce65c819e4c.jpg",
    "note": "ok · sunset river from the award article (18 Sep); A16b = wetland edge",
    "credit_page": "https://www.lifeweek.com.cn/h5/article/detail.do?artId=255611"
+  },
+  "A17": {
+   "url": "https://www.archiposition.com/items/20240703025945",
+   "img": "A17.jpg",
+   "img_src": "https://image.archiposition.com/2024/07/20240703150557youfang87.jpg",
+   "note": "ok · aerial from the archiposition project page, photo 存在建筑 (18 Sep); A17b = renovated villa"
   }
  }
 }
